@@ -1,4 +1,8 @@
 # Hello 👋
+
+![MrHakan's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrHakan&theme=dark&show_icons=true)
+
+
 # Languages:
 
 <img align="left" alt="HTML5" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" />
