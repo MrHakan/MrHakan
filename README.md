@@ -2,6 +2,8 @@
 
 ![MrHakan's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrHakan&theme=dark&show_icons=true)
 
+![stats](https://komarev.com/ghpvc/?username=MrHakan&color=red&style=plastic)
+
 
 # Languages:
 
