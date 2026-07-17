@@ -52,7 +52,7 @@
 ## 📫 Contact
 
 - 🌐 Website: [mrhakan.github.io](https://mrhakan.github.io)
-- 💬 Discord: `MrHakan#4174`
+- 💬 Discord: `mrhakan`
 
 ---
 
