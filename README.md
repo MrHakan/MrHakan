@@ -1,41 +1,61 @@
-# Hakan
+<div align="center">
 
-I study marine transportation and make software for the things I spend time with: ships, computers, and games. Some projects solve a practical problem; others are just interesting to build.
+# Hi there, I'm Hakan 👋
 
-**Start somewhere:** [explore my desktop site](https://mrhakan.github.io/) · [try a ship simulator](https://mrhakan.github.io/inert-gas-simulator/) · [browse all repositories](https://github.com/MrHakan?tab=repositories)
+**Games, tools, simulations, and whatever I feel like building next.**
 
-## Pick a direction
+[![Website](https://img.shields.io/badge/Website-mrhakan.github.io-2bbc8a?style=flat&logo=githubpages&logoColor=white)](https://mrhakan.github.io)
+![Discord](https://img.shields.io/discord/741224185522683914?label=Discord&style=flat&logo=discord&logoColor=white&color=5865F2)
+![Profile Views](https://komarev.com/ghpvc/?username=MrHakan&color=red&style=flat)
 
-Open a section to find something to use or explore.
+</div>
+
+## Jump in
+
+| Open in your browser | Get the code |
+| --- | --- |
+| [**My desktop site**](https://mrhakan.github.io/) — a Windows 98 inspired corner of the web, with games and apps | [**FolderLens**](https://github.com/MrHakan/FolderLens) — see what's taking up space on your PC |
+| [**WorldForge**](https://mrhakan.github.io/WorldForge/) — generate a world and let its history unfold | [**FTPortal**](https://github.com/MrHakan/FTPortal) — share files across your local network |
+| [**Port Congestion Simulator**](https://mrhakan.github.io/port-congestion-sim/) — watch a port react to traffic and delays | [**Minecraft Client**](https://github.com/MrHakan/Minecraft-Client) — a Fabric utility mod |
 
 <details>
-<summary><strong>Ships and ports</strong> — planning tools and training simulations</summary>
+<summary><b>More to try ▸</b></summary>
 
-- **[UKC Planner](https://mrhakan.github.io/ukc-planner/)** — work through draft, squat, tide and clearance scenarios. [Source](https://github.com/MrHakan/ukc-planner).
-- **[Port Congestion Simulator](https://mrhakan.github.io/port-congestion-sim/)** — change the conditions and watch queues, pilots, tugs and berths interact. [Source](https://github.com/MrHakan/port-congestion-sim).
-- **[Inert Gas System Simulator](https://mrhakan.github.io/inert-gas-simulator/)** — explore a tanker's inert gas system in a browser. [Source](https://github.com/MrHakan/inert-gas-simulator).
+- [UKC Planner](https://mrhakan.github.io/ukc-planner/) — change a scenario and see how the clearance calculation responds.
+- [Inert Gas System Simulator](https://mrhakan.github.io/inert-gas-simulator/) — explore an interactive 3D system.
+- [All repositories](https://github.com/MrHakan?tab=repositories) — the rest of the projects and experiments.
 
 </details>
 
-<details>
-<summary><strong>Useful software</strong> — files, folders and everyday workflows</summary>
+## Tech stack
 
-- **[FolderLens](https://github.com/MrHakan/FolderLens)** — inspect disk usage through a folder tree, treemap and file filters. [Download](https://github.com/MrHakan/FolderLens/releases/latest).
-- **[FTPortal](https://github.com/MrHakan/FTPortal)** — move files between devices on the same local network, with native and browser flows.
+**Languages**
 
-</details>
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Visual Basic](https://img.shields.io/badge/Visual%20Basic-945DB7?style=for-the-badge&logo=dotnet&logoColor=white)
+![AutoHotkey](https://img.shields.io/badge/AutoHotkey-334455?style=for-the-badge&logo=autohotkey&logoColor=white)
 
-<details>
-<summary><strong>Worlds and games</strong> — simulations, mods and browser experiments</summary>
+**Frameworks & tools**
 
-- **[WorldForge](https://mrhakan.github.io/WorldForge/)** — run a procedural world and civilization simulation. [Source](https://github.com/MrHakan/WorldForge).
-- **[Minecraft Client](https://github.com/MrHakan/Minecraft-Client)** — a Fabric utility mod with modules, HUD and profiles.
-- **[My website](https://mrhakan.github.io/)** — a Windows 98 inspired desktop with games and small apps. [Source](https://github.com/MrHakan/mrhakan.github.io).
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
 
-</details>
+## GitHub stats
 
-## A little more about me
+<div align="center">
 
-I work across browser apps, desktop utilities and game mods. My maritime studies tend to turn questions from the bridge or cargo operations into tools I can test and share.
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=MrHakan&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrHakan&theme=tokyonight&layout=compact&hide_border=true" alt="Top languages" />
 
-[See what else I'm building](https://github.com/MrHakan?tab=repositories) · [Visit the website](https://mrhakan.github.io/)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MrHakan&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
+</div>
+
+**Elsewhere:** [Website](https://mrhakan.github.io/) · Discord: `mrhakan`
