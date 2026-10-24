@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm Hakan 👋
+# Hi there, I'm Hakan
 
 **Games, tools, simulations, and whatever I feel like building next.**
 
