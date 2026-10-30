@@ -7,6 +7,7 @@
 [![Website](https://img.shields.io/badge/Website-mrhakan.github.io-2bbc8a?style=flat&logo=githubpages&logoColor=white)](https://mrhakan.github.io)
 ![Discord](https://img.shields.io/discord/741224185522683914?label=Discord&style=flat&logo=discord&logoColor=white&color=5865F2)
 ![Profile Views](https://komarev.com/ghpvc/?username=MrHakan&color=red&style=flat)
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/MrHakan/badge.svg)](https://hub.xerj.org/contributors/MrHakan)
 
 </div>
 
