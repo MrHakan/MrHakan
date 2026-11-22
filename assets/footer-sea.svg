@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" preserveAspectRatio="xMidYMax meet" role="img" aria-labelledby="t d">
   <title id="t">A product tanker on a calm sea</title>
   <desc id="d">Animated footer: rolling waves in navy and sea blue, and a chemical / product tanker sailing slowly across them from left to right, rising and pitching with the swell, with a bow wave, a wake and smoke from the funnel.</desc>
-  <!-- The ship is the earlier tanker sketch's drawing at 0.4 scale. The sea scrolls in three layers (90 s, 40 s and 10 s per wavelength);
+  <!-- The ship is the earlier tanker sketch's drawing at 0.62 scale. The sea scrolls in three layers (90 s, 40 s and 10 s per wavelength);
        the ship crosses in 50 s, 5 wavelengths of the near water, so she meets the swell in the same place
        every crossing; her heave and (damped) pitch follow the least-squares fit of that water along her waterline,
        one 5 s cycle per crest. -->
@@ -14,7 +14,7 @@
       <stop offset="0" stop-color="#061f4d" stop-opacity="0"/>
       <stop offset="1" stop-color="#061f4d" stop-opacity=".35"/>
     </linearGradient>
-    <linearGradient id="wake" gradientUnits="userSpaceOnUse" x1="-254" y1="0" x2="-104" y2="0">
+    <linearGradient id="wake" gradientUnits="userSpaceOnUse" x1="-311.2" y1="0" x2="-161.2" y2="0">
       <stop offset="0" stop-color="#eaf6ff" stop-opacity="0"/>
       <stop offset="1" stop-color="#eaf6ff" stop-opacity=".85"/>
     </linearGradient>
@@ -49,16 +49,16 @@
   <g>
     <animateTransform attributeName="transform" type="translate" from="-150 150" to="1350 150" dur="50s" repeatCount="indefinite"/>
     <g fill="#c3ccd8">
-      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
-      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="1.5s" repeatCount="indefinite"/></circle>
-      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
-      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="-151.28" cy="-60.76" r="1.2" opacity="0"><animate attributeName="cx" values="-151.28;-181.28" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="cy" values="-60.76;-75.76" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="-151.28" cy="-60.76" r="1.2" opacity="0"><animate attributeName="cx" values="-151.28;-181.28" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="cy" values="-60.76;-75.76" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="-151.28" cy="-60.76" r="1.2" opacity="0"><animate attributeName="cx" values="-151.28;-181.28" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="cy" values="-60.76;-75.76" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle cx="-151.28" cy="-60.76" r="1.2" opacity="0"><animate attributeName="cx" values="-151.28;-181.28" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="cy" values="-60.76;-75.76" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="4.5s" repeatCount="indefinite"/></circle>
     </g>
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0 1.8;0 1.78;0 1.7;0 1.57;0 1.41;0 1.2;0 0.96;0 0.71;0 0.44;0 0.16;0 -0.11;0 -0.37;0 -0.61;0 -0.83;0 -1.03;0 -1.2;0 -1.34;0 -1.45;0 -1.53;0 -1.57;0 -1.59;0 -1.57;0 -1.53;0 -1.45;0 -1.34;0 -1.2;0 -1.03;0 -0.83;0 -0.61;0 -0.37;0 -0.11;0 0.16;0 0.44;0 0.71;0 0.96;0 1.2;0 1.41;0 1.57;0 1.7;0 1.78;0 1.8" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -0.2;0 -0.2;0 -0.19;0 -0.17;0 -0.15;0 -0.13;0 -0.1;0 -0.07;0 -0.04;0 -0.01;0 0.02;0 0.05;0 0.07;0 0.09;0 0.11;0 0.13;0 0.14;0 0.15;0 0.15;0 0.16;0 0.16;0 0.16;0 0.15;0 0.15;0 0.14;0 0.13;0 0.11;0 0.09;0 0.07;0 0.05;0 0.02;0 -0.01;0 -0.04;0 -0.07;0 -0.1;0 -0.13;0 -0.15;0 -0.17;0 -0.19;0 -0.2;0 -0.2" dur="5s" repeatCount="indefinite"/>
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="0;-0.26;-0.51;-0.76;-0.98;-1.18;-1.36;-1.51;-1.61;-1.69;-1.71;-1.7;-1.65;-1.55;-1.41;-1.24;-1.04;-0.8;-0.55;-0.28;0;0.28;0.55;0.8;1.04;1.24;1.41;1.55;1.65;1.7;1.71;1.69;1.61;1.51;1.36;1.18;0.98;0.76;0.51;0.26;0" dur="5s" repeatCount="indefinite"/>
-        <g transform="scale(0.4) translate(-410 -160)">
+        <animateTransform attributeName="transform" type="rotate" values="0;-0.13;-0.25;-0.37;-0.47;-0.56;-0.64;-0.69;-0.72;-0.74;-0.73;-0.71;-0.67;-0.62;-0.55;-0.48;-0.39;-0.3;-0.2;-0.1;0;0.1;0.2;0.3;0.39;0.48;0.55;0.62;0.67;0.71;0.73;0.74;0.72;0.69;0.64;0.56;0.47;0.37;0.25;0.13;0" dur="5s" repeatCount="indefinite"/>
+        <g transform="scale(0.62) translate(-410 -160)">
         <!-- hull: dark topsides, red boot-topping and bottom, bulbous bow -->
         <path d="M146 126 L153 160 L160 170 Q168 177 188 177 L632 177 C662 178 678 173 676 166 C674 160 664 158 656 160 L677 121 L604 122 L600 130 L232 130 L231 126 Z" fill="url(#hullside)"/>
         <g clip-path="url(#hullclip)">
@@ -227,14 +227,14 @@
   <g>
     <animateTransform attributeName="transform" type="translate" from="-150 150" to="1350 150" dur="50s" repeatCount="indefinite"/>
     <g fill="none" stroke="url(#wake)" stroke-linecap="round">
-      <path d="M-100 6 Q-144 7 -254 7" stroke-width="1.6" stroke-dasharray="10 7"><animate attributeName="stroke-dashoffset" from="0" to="34" dur="1.6s" repeatCount="indefinite"/></path>
-      <path d="M-98 7 Q-144 11 -254 13" stroke-width="1" stroke-dasharray="7 9" opacity=".7"><animate attributeName="stroke-dashoffset" from="0" to="32" dur="2s" repeatCount="indefinite"/></path>
+      <path d="M-157.2 6 Q-201.2 7 -311.2 7" stroke-width="1.6" stroke-dasharray="10 7"><animate attributeName="stroke-dashoffset" from="0" to="34" dur="1.6s" repeatCount="indefinite"/></path>
+      <path d="M-155.2 7 Q-201.2 11 -311.2 13" stroke-width="1" stroke-dasharray="7 9" opacity=".7"><animate attributeName="stroke-dashoffset" from="0" to="32" dur="2s" repeatCount="indefinite"/></path>
     </g>
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0 1.8;0 1.78;0 1.7;0 1.57;0 1.41;0 1.2;0 0.96;0 0.71;0 0.44;0 0.16;0 -0.11;0 -0.37;0 -0.61;0 -0.83;0 -1.03;0 -1.2;0 -1.34;0 -1.45;0 -1.53;0 -1.57;0 -1.59;0 -1.57;0 -1.53;0 -1.45;0 -1.34;0 -1.2;0 -1.03;0 -0.83;0 -0.61;0 -0.37;0 -0.11;0 0.16;0 0.44;0 0.71;0 0.96;0 1.2;0 1.41;0 1.57;0 1.7;0 1.78;0 1.8" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -0.2;0 -0.2;0 -0.19;0 -0.17;0 -0.15;0 -0.13;0 -0.1;0 -0.07;0 -0.04;0 -0.01;0 0.02;0 0.05;0 0.07;0 0.09;0 0.11;0 0.13;0 0.14;0 0.15;0 0.15;0 0.16;0 0.16;0 0.16;0 0.15;0 0.15;0 0.14;0 0.13;0 0.11;0 0.09;0 0.07;0 0.05;0 0.02;0 -0.01;0 -0.04;0 -0.07;0 -0.1;0 -0.13;0 -0.15;0 -0.17;0 -0.19;0 -0.2;0 -0.2" dur="5s" repeatCount="indefinite"/>
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="0;-0.26;-0.51;-0.76;-0.98;-1.18;-1.36;-1.51;-1.61;-1.69;-1.71;-1.7;-1.65;-1.55;-1.41;-1.24;-1.04;-0.8;-0.55;-0.28;0;0.28;0.55;0.8;1.04;1.24;1.41;1.55;1.65;1.7;1.71;1.69;1.61;1.51;1.36;1.18;0.98;0.76;0.51;0.26;0" dur="5s" repeatCount="indefinite"/>
-        <g transform="scale(0.4) translate(-410 -160)">
+        <animateTransform attributeName="transform" type="rotate" values="0;-0.13;-0.25;-0.37;-0.47;-0.56;-0.64;-0.69;-0.72;-0.74;-0.73;-0.71;-0.67;-0.62;-0.55;-0.48;-0.39;-0.3;-0.2;-0.1;0;0.1;0.2;0.3;0.39;0.48;0.55;0.62;0.67;0.71;0.73;0.74;0.72;0.69;0.64;0.56;0.47;0.37;0.25;0.13;0" dur="5s" repeatCount="indefinite"/>
+        <g transform="scale(0.62) translate(-410 -160)">
         <g fill="#eaf6ff">
           <path d="M650 160 Q664 154 680 160 Q690 163 700 161 Q688 166 676 164 Q662 162 650 162 Z" opacity=".85">
             <animate attributeName="d" dur="1.6s" repeatCount="indefinite" values="M650 160 Q664 154 680 160 Q690 163 700 161 Q688 166 676 164 Q662 162 650 162 Z;M650 160 Q666 152 682 159 Q694 162 704 160 Q690 167 676 165 Q662 162 650 162 Z;M650 160 Q664 154 680 160 Q690 163 700 161 Q688 166 676 164 Q662 162 650 162 Z"/>
