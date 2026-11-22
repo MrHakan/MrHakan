@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" preserveAspectRatio="xMidYMax meet" role="img" aria-labelledby="t d">
+  <title id="t">A product tanker on a calm sea</title>
+  <desc id="d">Animated footer: rolling waves in navy and sea blue, and a chemical / product tanker sailing slowly across them from left to right, rising and pitching with the swell, with a bow wave, a wake and smoke from the funnel.</desc>
+  <!-- The ship is the earlier tanker sketch's drawing at 0.4 scale. The sea scrolls in three layers (90 s, 40 s and 10 s per wavelength);
+       the ship crosses in 50 s, 5 wavelengths of the near water, so she meets the swell in the same place
+       every crossing; her heave and (damped) pitch follow the least-squares fit of that water along her waterline,
+       one 5 s cycle per crest. -->
+  <defs>
+    <linearGradient id="sea" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#0b3d91"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#061f4d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#061f4d" stop-opacity=".35"/>
+    </linearGradient>
+    <linearGradient id="wake" gradientUnits="userSpaceOnUse" x1="-254" y1="0" x2="-104" y2="0">
+      <stop offset="0" stop-color="#eaf6ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#eaf6ff" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="hullside" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3647"/>
+      <stop offset="1" stop-color="#151c27"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8edf3"/>
+      <stop offset="1" stop-color="#c7d0dc"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fffbe6"/>
+      <stop offset=".35" stop-color="#fef3c7" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fef3c7" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="hullclip">
+      <path d="M146 126 L153 160 L160 170 Q168 177 188 177 L632 177 C662 178 678 173 676 166 C674 160 664 158 656 160 L677 121 L604 122 L600 130 L232 130 L231 126 Z"/>
+    </clipPath>
+    <!-- the moving wave shapes cut a fixed gradient, so the colour stays put while the water moves -->
+    <clipPath id="back"><path d="M0 91C33.33 91 66.67 91.42 100 92.21C133.33 92.99 166.67 94.14 200 95.5C233.33 96.86 266.67 98.43 300 100C333.33 101.57 366.67 103.14 400 104.5C433.33 105.86 466.67 107.01 500 107.79C533.33 108.58 566.67 109 600 109C633.33 109 666.67 108.58 700 107.79C733.33 107.01 766.67 105.86 800 104.5C833.33 103.14 866.67 101.57 900 100C933.33 98.43 966.67 96.86 1000 95.5C1033.33 94.14 1066.67 92.99 1100 92.21C1133.33 91.42 1166.67 91 1200 91C1233.33 91 1266.67 91.42 1300 92.21C1333.33 92.99 1366.67 94.14 1400 95.5C1433.33 96.86 1466.67 98.43 1500 100C1533.33 101.57 1566.67 103.14 1600 104.5C1633.33 105.86 1666.67 107.01 1700 107.79C1733.33 108.58 1766.67 109 1800 109C1833.33 109 1866.67 108.58 1900 107.79C1933.33 107.01 1966.67 105.86 2000 104.5C2033.33 103.14 2066.67 101.57 2100 100C2133.33 98.43 2166.67 96.86 2200 95.5C2233.33 94.14 2266.67 92.99 2300 92.21C2333.33 91.42 2366.67 91 2400 91V220H0Z"><animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="90s" repeatCount="indefinite"/></path></clipPath>
+    <clipPath id="mid"><path d="M0 117.28C16.67 117.28 33.33 117.7 50 118.44C66.67 119.19 83.33 120.24 100 121.36C116.67 122.48 133.33 123.67 150 124.72C166.67 125.77 183.33 126.67 200 127.36C216.67 128.05 233.33 128.53 250 128.84C266.67 129.14 283.33 129.28 300 129.28C316.67 129.28 333.33 129.14 350 128.84C366.67 128.53 383.33 128.05 400 127.36C416.67 126.67 433.33 125.77 450 124.72C466.67 123.67 483.33 122.48 500 121.36C516.67 120.24 533.33 119.19 550 118.44C566.67 117.7 583.33 117.28 600 117.28C616.67 117.28 633.33 117.7 650 118.44C666.67 119.19 683.33 120.24 700 121.36C716.67 122.48 733.33 123.67 750 124.72C766.67 125.77 783.33 126.67 800 127.36C816.67 128.05 833.33 128.53 850 128.84C866.67 129.14 883.33 129.28 900 129.28C916.67 129.28 933.33 129.14 950 128.84C966.67 128.53 983.33 128.05 1000 127.36C1016.67 126.67 1033.33 125.77 1050 124.72C1066.67 123.67 1083.33 122.48 1100 121.36C1116.67 120.24 1133.33 119.19 1150 118.44C1166.67 117.7 1183.33 117.28 1200 117.28C1216.67 117.28 1233.33 117.7 1250 118.44C1266.67 119.19 1283.33 120.24 1300 121.36C1316.67 122.48 1333.33 123.67 1350 124.72C1366.67 125.77 1383.33 126.67 1400 127.36C1416.67 128.05 1433.33 128.53 1450 128.84C1466.67 129.14 1483.33 129.28 1500 129.28C1516.67 129.28 1533.33 129.14 1550 128.84C1566.67 128.53 1583.33 128.05 1600 127.36C1616.67 126.67 1633.33 125.77 1650 124.72C1666.67 123.67 1683.33 122.48 1700 121.36C1716.67 120.24 1733.33 119.19 1750 118.44C1766.67 117.7 1783.33 117.28 1800 117.28V220H0Z"><animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="40s" repeatCount="indefinite"/></path></clipPath>
+    <clipPath id="front"><path d="M0 145.3C12.5 145.3 25 145.99 37.5 147.03C50 148.07 62.5 149.4 75 150.5C87.5 151.6 100 152.46 112.5 152.97C125 153.48 137.5 153.7 150 153.7C162.5 153.7 175 153.48 187.5 152.97C200 152.46 212.5 151.6 225 150.5C237.5 149.4 250 148.07 262.5 147.03C275 145.99 287.5 145.3 300 145.3C312.5 145.3 325 145.99 337.5 147.03C350 148.07 362.5 149.4 375 150.5C387.5 151.6 400 152.46 412.5 152.97C425 153.48 437.5 153.7 450 153.7C462.5 153.7 475 153.48 487.5 152.97C500 152.46 512.5 151.6 525 150.5C537.5 149.4 550 148.07 562.5 147.03C575 145.99 587.5 145.3 600 145.3C612.5 145.3 625 145.99 637.5 147.03C650 148.07 662.5 149.4 675 150.5C687.5 151.6 700 152.46 712.5 152.97C725 153.48 737.5 153.7 750 153.7C762.5 153.7 775 153.48 787.5 152.97C800 152.46 812.5 151.6 825 150.5C837.5 149.4 850 148.07 862.5 147.03C875 145.99 887.5 145.3 900 145.3C912.5 145.3 925 145.99 937.5 147.03C950 148.07 962.5 149.4 975 150.5C987.5 151.6 1000 152.46 1012.5 152.97C1025 153.48 1037.5 153.7 1050 153.7C1062.5 153.7 1075 153.48 1087.5 152.97C1100 152.46 1112.5 151.6 1125 150.5C1137.5 149.4 1150 148.07 1162.5 147.03C1175 145.99 1187.5 145.3 1200 145.3C1212.5 145.3 1225 145.99 1237.5 147.03C1250 148.07 1262.5 149.4 1275 150.5C1287.5 151.6 1300 152.46 1312.5 152.97C1325 153.48 1337.5 153.7 1350 153.7C1362.5 153.7 1375 153.48 1387.5 152.97C1400 152.46 1412.5 151.6 1425 150.5C1437.5 149.4 1450 148.07 1462.5 147.03C1475 145.99 1487.5 145.3 1500 145.3V220H0Z"><animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="10s" repeatCount="indefinite"/></path></clipPath>
+  </defs>
+
+  <!-- far swell and middle water -->
+  <rect width="1200" height="220" fill="url(#sea)" opacity=".35" clip-path="url(#back)"/>
+  <rect width="1200" height="220" fill="url(#sea)" opacity=".62" clip-path="url(#mid)"/>
+  <path d="M0 117.78C16.67 117.78 33.33 118.2 50 118.94C66.67 119.69 83.33 120.74 100 121.86C116.67 122.98 133.33 124.17 150 125.22C166.67 126.27 183.33 127.17 200 127.86C216.67 128.55 233.33 129.03 250 129.34C266.67 129.64 283.33 129.78 300 129.78C316.67 129.78 333.33 129.64 350 129.34C366.67 129.03 383.33 128.55 400 127.86C416.67 127.17 433.33 126.27 450 125.22C466.67 124.17 483.33 122.98 500 121.86C516.67 120.74 533.33 119.69 550 118.94C566.67 118.2 583.33 117.78 600 117.78C616.67 117.78 633.33 118.2 650 118.94C666.67 119.69 683.33 120.74 700 121.86C716.67 122.98 733.33 124.17 750 125.22C766.67 126.27 783.33 127.17 800 127.86C816.67 128.55 833.33 129.03 850 129.34C866.67 129.64 883.33 129.78 900 129.78C916.67 129.78 933.33 129.64 950 129.34C966.67 129.03 983.33 128.55 1000 127.86C1016.67 127.17 1033.33 126.27 1050 125.22C1066.67 124.17 1083.33 122.98 1100 121.86C1116.67 120.74 1133.33 119.69 1150 118.94C1166.67 118.2 1183.33 117.78 1200 117.78C1216.67 117.78 1233.33 118.2 1250 118.94C1266.67 119.69 1283.33 120.74 1300 121.86C1316.67 122.98 1333.33 124.17 1350 125.22C1366.67 126.27 1383.33 127.17 1400 127.86C1416.67 128.55 1433.33 129.03 1450 129.34C1466.67 129.64 1483.33 129.78 1500 129.78C1516.67 129.78 1533.33 129.64 1550 129.34C1566.67 129.03 1583.33 128.55 1600 127.86C1616.67 127.17 1633.33 126.27 1650 125.22C1666.67 124.17 1683.33 122.98 1700 121.86C1716.67 120.74 1733.33 119.69 1750 118.94C1766.67 118.2 1783.33 117.78 1800 117.78" fill="none" stroke="#cfeaff" stroke-opacity=".28" stroke-width="1.2"><animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="40s" repeatCount="indefinite"/></path>
+
+  <!-- the ship: sails across (outer), heaves and pitches with the near water (inner) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="-150 150" to="1350 150" dur="50s" repeatCount="indefinite"/>
+    <g fill="#c3ccd8">
+      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle cx="-97.6" cy="-39.2" r="1.2" opacity="0"><animate attributeName="cx" values="-97.6;-127.6" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="cy" values="-39.2;-54.2" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="r" values="1.3;6" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="6s" begin="4.5s" repeatCount="indefinite"/></circle>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 1.8;0 1.78;0 1.7;0 1.57;0 1.41;0 1.2;0 0.96;0 0.71;0 0.44;0 0.16;0 -0.11;0 -0.37;0 -0.61;0 -0.83;0 -1.03;0 -1.2;0 -1.34;0 -1.45;0 -1.53;0 -1.57;0 -1.59;0 -1.57;0 -1.53;0 -1.45;0 -1.34;0 -1.2;0 -1.03;0 -0.83;0 -0.61;0 -0.37;0 -0.11;0 0.16;0 0.44;0 0.71;0 0.96;0 1.2;0 1.41;0 1.57;0 1.7;0 1.78;0 1.8" dur="5s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0;-0.26;-0.51;-0.76;-0.98;-1.18;-1.36;-1.51;-1.61;-1.69;-1.71;-1.7;-1.65;-1.55;-1.41;-1.24;-1.04;-0.8;-0.55;-0.28;0;0.28;0.55;0.8;1.04;1.24;1.41;1.55;1.65;1.7;1.71;1.69;1.61;1.51;1.36;1.18;0.98;0.76;0.51;0.26;0" dur="5s" repeatCount="indefinite"/>
+        <g transform="scale(0.4) translate(-410 -160)">
+        <!-- hull: dark topsides, red boot-topping and bottom, bulbous bow -->
+        <path d="M146 126 L153 160 L160 170 Q168 177 188 177 L632 177 C662 178 678 173 676 166 C674 160 664 158 656 160 L677 121 L604 122 L600 130 L232 130 L231 126 Z" fill="url(#hullside)"/>
+        <g clip-path="url(#hullclip)">
+          <rect x="140" y="156" width="560" height="30" fill="#8f1d1d"/>
+          <rect x="140" y="155" width="560" height="5" fill="#c0262d"/>
+          <!-- sheer line in the profile's sea blue -->
+          <path d="M146 133.5 L604 133.5 L677 126" fill="none" stroke="#0ea5e9" stroke-width="1.6"/>
+        </g>
+        <!-- anchor in its hawse pipe -->
+        <g fill="none" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round">
+          <path d="M651 131 v6 M648 136 q3 3 6 0"/>
+        </g>
+        <circle cx="651" cy="130" r="1.6" fill="#0f172a"/>
+
+        <!-- deck rail, low and long -->
+        <path d="M232 126 H600" stroke="#cbd5e1" stroke-width=".7"/>
+        <path d="M236 126 v4 M244 126 v4 M252 126 v4 M260 126 v4 M268 126 v4 M276 126 v4 M284 126 v4 M292 126 v4 M300 126 v4 M308 126 v4 M316 126 v4 M324 126 v4 M332 126 v4 M340 126 v4 M348 126 v4 M356 126 v4 M364 126 v4 M372 126 v4 M380 126 v4 M388 126 v4 M396 126 v4 M404 126 v4 M412 126 v4 M420 126 v4 M428 126 v4 M436 126 v4 M444 126 v4 M452 126 v4 M460 126 v4 M468 126 v4 M476 126 v4 M484 126 v4 M492 126 v4 M500 126 v4 M508 126 v4 M516 126 v4 M524 126 v4 M532 126 v4 M540 126 v4 M548 126 v4 M556 126 v4 M564 126 v4 M572 126 v4 M580 126 v4 M588 126 v4 M596 126 v4" stroke="#cbd5e1" stroke-width=".5"/>
+
+        <!-- main deck: pipe runs, tank hatches, P/V vents, the catwalk over it all -->
+        <g stroke="#9aa8ba" fill="none">
+          <path d="M236 127.8 H598" stroke-width="1.1"/>
+          <path d="M236 128.9 H598" stroke-width=".7" stroke="#7b8799"/>
+        </g>
+        <g fill="#b9c4d2">
+          <rect x="250" y="126.6" width="7" height="2.4" rx=".6"/><rect x="280" y="126.6" width="7" height="2.4" rx=".6"/>
+          <rect x="310" y="126.6" width="7" height="2.4" rx=".6"/><rect x="340" y="126.6" width="7" height="2.4" rx=".6"/>
+          <rect x="370" y="126.6" width="7" height="2.4" rx=".6"/><rect x="450" y="126.6" width="7" height="2.4" rx=".6"/>
+          <rect x="480" y="126.6" width="7" height="2.4" rx=".6"/><rect x="510" y="126.6" width="7" height="2.4" rx=".6"/>
+          <rect x="540" y="126.6" width="7" height="2.4" rx=".6"/><rect x="570" y="126.6" width="7" height="2.4" rx=".6"/>
+        </g>
+        <g stroke="#a7b3c3" stroke-width=".8">
+          <path d="M262 128 V115 M292 128 V115 M322 128 V115 M352 128 V115 M462 128 V115 M492 128 V115 M522 128 V115 M552 128 V115 M582 128 V116"/>
+        </g>
+        <g fill="#dbe3ec">
+          <rect x="260.6" y="113.6" width="2.8" height="2" rx=".4"/><rect x="290.6" y="113.6" width="2.8" height="2" rx=".4"/>
+          <rect x="320.6" y="113.6" width="2.8" height="2" rx=".4"/><rect x="350.6" y="113.6" width="2.8" height="2" rx=".4"/>
+          <rect x="460.6" y="113.6" width="2.8" height="2" rx=".4"/><rect x="490.6" y="113.6" width="2.8" height="2" rx=".4"/>
+          <rect x="520.6" y="113.6" width="2.8" height="2" rx=".4"/><rect x="550.6" y="113.6" width="2.8" height="2" rx=".4"/>
+          <rect x="580.6" y="114.6" width="2.8" height="2" rx=".4"/>
+        </g>
+        <!-- catwalk -->
+        <path d="M234 120.5 H598" stroke="#e2e8f0" stroke-width="1.3"/>
+        <path d="M240 121 v7 M256 121 v7 M272 121 v7 M288 121 v7 M304 121 v7 M320 121 v7 M336 121 v7 M352 121 v7 M368 121 v7 M384 121 v7 M440 121 v7 M456 121 v7 M472 121 v7 M488 121 v7 M504 121 v7 M520 121 v7 M536 121 v7 M552 121 v7 M568 121 v7 M584 121 v7" stroke="#aeb9c7" stroke-width=".6"/>
+        <path d="M234 117.6 H598" stroke="#e2e8f0" stroke-width=".45" stroke-dasharray="1 3"/>
+
+        <!-- the manifold, midships: risers, valve wheels, the crossover, and the hose crane -->
+        <g stroke="#cfd8e3" stroke-width="1.4" fill="none" stroke-linecap="round">
+          <path d="M396 130 V114 M404 130 V112 M412 130 V112 M420 130 V114"/>
+          <path d="M394 116 H422" stroke-width="1.1"/>
+          <path d="M392 124 H424" stroke="#fbbf24" stroke-width="1"/>
+        </g>
+        <g fill="none" stroke="#fbbf24" stroke-width=".8">
+          <circle cx="396" cy="119" r="1.7"/><circle cx="404" cy="117" r="1.7"/><circle cx="412" cy="117" r="1.7"/><circle cx="420" cy="119" r="1.7"/>
+        </g>
+        <rect x="389" y="126.5" width="38" height="3" fill="#64748b"/>
+        <!-- hose handling crane -->
+        <rect x="430" y="104" width="3.4" height="26" fill="#e2e8f0"/>
+        <rect x="428.6" y="101.5" width="6.2" height="4" rx="1" fill="#fbbf24"/>
+        <path d="M432 103 L470 91" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+        <path d="M469 92 V104" stroke="#cbd5e1" stroke-width=".5">
+          <animate attributeName="d" values="M469 92 V104;M469 92 Q470 98 470.5 104;M469 92 V104" dur="7.4s" repeatCount="indefinite"/>
+        </path>
+        <rect x="468.6" y="103.6" width="2.4" height="2" fill="#94a3b8"/>
+        <!-- small provision crane aft -->
+        <rect x="240" y="110" width="2.6" height="20" fill="#e2e8f0"/>
+        <path d="M241 111 L258 104" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+
+        <!-- forecastle: raised deck, bulwark, windlass, the foremast and its light -->
+        <path d="M600 130 L604 122 L677 121 L677 118 L606 119 L600 126 Z" fill="#202a38"/>
+        <g fill="#7b8799">
+          <rect x="622" y="117.5" width="7" height="4" rx="1"/><rect x="634" y="117.5" width="7" height="4" rx="1"/>
+        </g>
+        <path d="M606 118.4 L677 117.6" stroke="#cbd5e1" stroke-width=".6"/>
+        <path d="M612 117.6 v4 M620 117.5 v4 M646 117.4 v4 M656 117.4 v4 M666 117.2 v4" stroke="#cbd5e1" stroke-width=".45"/>
+        <rect x="609" y="78" width="2.6" height="42" fill="#e2e8f0"/>
+        <path d="M603 88 H618" stroke="#e2e8f0" stroke-width="1.3"/>
+        <path d="M610.3 78 L604 88 M610.3 78 L617 88" stroke="#cbd5e1" stroke-width=".5"/>
+        <!-- jackstaff and its little flag -->
+        <path d="M675 118 V106" stroke="#cbd5e1" stroke-width=".7"/>
+        <path d="M675 106 l5 1.4 l-5 1.4 z" fill="#0ea5e9"/>
+        <!-- masthead light: a soft glow that breathes, and a wink now and then -->
+        <circle cx="610.3" cy="76" r="9" fill="url(#lamp)">
+          <animate attributeName="opacity" values=".55;1;.55;.55;1;.2;1;.55" keyTimes="0;.2;.4;.6;.7;.74;.78;1" dur="4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="610.3" cy="76" r="1.6" fill="#fffbe6"/>
+
+        <!-- freefall lifeboat on its ramp over the stern -->
+        <path d="M140 104 L162 112" stroke="#94a3b8" stroke-width="1.2"/>
+        <path d="M141 104.5 Q140 100 145 100 L160 105.5 Q163 107 161.5 109.5 L145 106 Z" fill="#f97316" stroke="#9a3412" stroke-width=".6"/>
+        <path d="M147 102 l9 3" stroke="#fff" stroke-width=".7" opacity=".7"/>
+
+        <!-- funnel: raked aft, a company-neutral mark (a white band and a wave), black top -->
+        <path d="M158 126 L178 126 L177 66 L156 63 Z" fill="#e7ecf2"/>
+        <path d="M157.3 84 L177.6 85.5 L177.5 96 L157.6 95 Z" fill="#ffffff"/>
+        <path d="M160 92 q2.5 -4 5 0 t5 0 t5 0" fill="none" stroke="#0ea5e9" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M159.5 89 l7 -3 l7 3" fill="none" stroke="#0b3d91" stroke-width="1.2"/>
+        <path d="M156 63 L177 66 L177.2 72 L156.4 69.4 Z" fill="#11161d"/>
+        <path d="M159 63.4 v-2.5 M164 64 v-2.5" stroke="#11161d" stroke-width="1.4"/>
+
+        <!-- accommodation: four decks, the bridge, a wing with its green sidelight -->
+        <g>
+          <rect x="178" y="112" width="56" height="14" fill="url(#house)"/>
+          <rect x="180" y="98" width="52" height="14" fill="url(#house)"/>
+          <rect x="182" y="84" width="50" height="14" fill="url(#house)"/>
+          <rect x="179" y="70" width="57" height="14" fill="url(#house)"/>
+          <path d="M178 112 H234 M180 98 H232 M182 84 H232" stroke="#9aa6b5" stroke-width=".6"/>
+          <!-- bridge roof and wing -->
+          <rect x="177" y="68" width="61" height="2.4" fill="#f8fafc"/>
+          <path d="M236 79 H248 V84 H236" fill="#dfe6ee"/>
+          <path d="M236 79 H248" stroke="#f8fafc" stroke-width="1"/>
+          <circle cx="246.5" cy="81.5" r="1.3" fill="#22c55e"/>
+          <circle cx="246.5" cy="81.5" r="3.4" fill="#22c55e" opacity=".25"/>
+          <!-- bridge windows, lit -->
+          <g fill="#1e293b">
+            <rect x="183" y="73" width="51" height="5"/>
+          </g>
+          <g fill="#fde68a" opacity=".85">
+            <rect x="185" y="74" width="5" height="3"/><rect x="192" y="74" width="5" height="3"/><rect x="199" y="74" width="5" height="3"/>
+            <rect x="213" y="74" width="5" height="3"/><rect x="220" y="74" width="5" height="3"/><rect x="227" y="74" width="5" height="3"/>
+          </g>
+          <!-- portholes and cabin windows -->
+          <g fill="#334155">
+            <rect x="186" y="88" width="3.4" height="2.6"/><rect x="194" y="88" width="3.4" height="2.6"/><rect x="202" y="88" width="3.4" height="2.6"/><rect x="210" y="88" width="3.4" height="2.6"/><rect x="218" y="88" width="3.4" height="2.6"/><rect x="226" y="88" width="3.4" height="2.6"/>
+            <rect x="184" y="102" width="3.4" height="2.6"/><rect x="192" y="102" width="3.4" height="2.6"/><rect x="200" y="102" width="3.4" height="2.6"/><rect x="208" y="102" width="3.4" height="2.6"/><rect x="216" y="102" width="3.4" height="2.6"/><rect x="224" y="102" width="3.4" height="2.6"/>
+            <rect x="182" y="116" width="3.4" height="2.6"/><rect x="190" y="116" width="3.4" height="2.6"/><rect x="214" y="116" width="3.4" height="2.6"/><rect x="222" y="116" width="3.4" height="2.6"/>
+          </g>
+          <g fill="#fde68a">
+            <rect x="202" y="88" width="3.4" height="2.6"/><rect x="216" y="102" width="3.4" height="2.6"/><rect x="190" y="116" width="3.4" height="2.6"/>
+          </g>
+          <rect x="198" y="117" width="8" height="9" fill="#475569"/>
+        </g>
+        <!-- radar mast, two scanners turning, aerials -->
+        <rect x="205" y="46" width="2.4" height="22" fill="#e2e8f0"/>
+        <path d="M196 57 H217" stroke="#e2e8f0" stroke-width="1.3"/>
+        <path d="M206.2 46 V38 M200 57 V50 M214 57 V51" stroke="#cbd5e1" stroke-width=".6"/>
+        <g transform="translate(207 54.3)">
+          <rect x="-8" y="-.9" width="16" height="1.8" rx=".9" fill="#f8fafc">
+            <animateTransform attributeName="transform" type="scale" values="1 1;0.08 1;1 1" dur="2.6s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+        <g transform="translate(192 64.8)">
+          <rect x="-6" y="-.8" width="12" height="1.6" rx=".8" fill="#f8fafc">
+            <animateTransform attributeName="transform" type="scale" values="1 1;0.08 1;1 1" dur="1.9s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+        <circle cx="206.2" cy="38" r="1.1" fill="#f8fafc"/>
+
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- the near water, over her lower hull -->
+  <g clip-path="url(#front)">
+    <rect width="1200" height="220" fill="url(#sea)" opacity=".94"/>
+    <rect y="140" width="1200" height="80" fill="url(#deep)"/>
+  </g>
+  <path d="M0 145.9C12.5 145.9 25 146.59 37.5 147.63C50 148.67 62.5 150 75 151.1C87.5 152.2 100 153.06 112.5 153.57C125 154.08 137.5 154.3 150 154.3C162.5 154.3 175 154.08 187.5 153.57C200 153.06 212.5 152.2 225 151.1C237.5 150 250 148.67 262.5 147.63C275 146.59 287.5 145.9 300 145.9C312.5 145.9 325 146.59 337.5 147.63C350 148.67 362.5 150 375 151.1C387.5 152.2 400 153.06 412.5 153.57C425 154.08 437.5 154.3 450 154.3C462.5 154.3 475 154.08 487.5 153.57C500 153.06 512.5 152.2 525 151.1C537.5 150 550 148.67 562.5 147.63C575 146.59 587.5 145.9 600 145.9C612.5 145.9 625 146.59 637.5 147.63C650 148.67 662.5 150 675 151.1C687.5 152.2 700 153.06 712.5 153.57C725 154.08 737.5 154.3 750 154.3C762.5 154.3 775 154.08 787.5 153.57C800 153.06 812.5 152.2 825 151.1C837.5 150 850 148.67 862.5 147.63C875 146.59 887.5 145.9 900 145.9C912.5 145.9 925 146.59 937.5 147.63C950 148.67 962.5 150 975 151.1C987.5 152.2 1000 153.06 1012.5 153.57C1025 154.08 1037.5 154.3 1050 154.3C1062.5 154.3 1075 154.08 1087.5 153.57C1100 153.06 1112.5 152.2 1125 151.1C1137.5 150 1150 148.67 1162.5 147.63C1175 146.59 1187.5 145.9 1200 145.9C1212.5 145.9 1225 146.59 1237.5 147.63C1250 148.67 1262.5 150 1275 151.1C1287.5 152.2 1300 153.06 1312.5 153.57C1325 154.08 1337.5 154.3 1350 154.3C1362.5 154.3 1375 154.08 1387.5 153.57C1400 153.06 1412.5 152.2 1425 151.1C1437.5 150 1450 148.67 1462.5 147.63C1475 146.59 1487.5 145.9 1500 145.9" fill="none" stroke="#e0f2ff" stroke-opacity=".45" stroke-width="1.3"><animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="10s" repeatCount="indefinite"/></path>
+  <g fill="none" stroke="#cfeaff" stroke-linecap="round">
+    <path d="M0 172q11 -1.6 22 0M150 172q11 -1.6 22 0M300 172q11 -1.6 22 0M450 172q11 -1.6 22 0M600 172q11 -1.6 22 0M750 172q11 -1.6 22 0M900 172q11 -1.6 22 0M1050 172q11 -1.6 22 0M1200 172q11 -1.6 22 0M1350 172q11 -1.6 22 0" stroke-width="1" opacity="0.22"><animateTransform attributeName="transform" type="translate" from="0 0" to="-150 0" dur="6s" repeatCount="indefinite"/></path>
+    <path d="M0 188q15 -1.6 30 0M200 188q15 -1.6 30 0M400 188q15 -1.6 30 0M600 188q15 -1.6 30 0M800 188q15 -1.6 30 0M1000 188q15 -1.6 30 0M1200 188q15 -1.6 30 0M1400 188q15 -1.6 30 0" stroke-width="1.2" opacity="0.18"><animateTransform attributeName="transform" type="translate" from="0 0" to="-200 0" dur="6s" repeatCount="indefinite"/></path>
+    <path d="M0 204q18 -1.6 36 0M240 204q18 -1.6 36 0M480 204q18 -1.6 36 0M720 204q18 -1.6 36 0M960 204q18 -1.6 36 0M1200 204q18 -1.6 36 0M1440 204q18 -1.6 36 0" stroke-width="1.4" opacity="0.14"><animateTransform attributeName="transform" type="translate" from="0 0" to="-240 0" dur="6s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- on the water with her: bow wave and wake -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="-150 150" to="1350 150" dur="50s" repeatCount="indefinite"/>
+    <g fill="none" stroke="url(#wake)" stroke-linecap="round">
+      <path d="M-100 6 Q-144 7 -254 7" stroke-width="1.6" stroke-dasharray="10 7"><animate attributeName="stroke-dashoffset" from="0" to="34" dur="1.6s" repeatCount="indefinite"/></path>
+      <path d="M-98 7 Q-144 11 -254 13" stroke-width="1" stroke-dasharray="7 9" opacity=".7"><animate attributeName="stroke-dashoffset" from="0" to="32" dur="2s" repeatCount="indefinite"/></path>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 1.8;0 1.78;0 1.7;0 1.57;0 1.41;0 1.2;0 0.96;0 0.71;0 0.44;0 0.16;0 -0.11;0 -0.37;0 -0.61;0 -0.83;0 -1.03;0 -1.2;0 -1.34;0 -1.45;0 -1.53;0 -1.57;0 -1.59;0 -1.57;0 -1.53;0 -1.45;0 -1.34;0 -1.2;0 -1.03;0 -0.83;0 -0.61;0 -0.37;0 -0.11;0 0.16;0 0.44;0 0.71;0 0.96;0 1.2;0 1.41;0 1.57;0 1.7;0 1.78;0 1.8" dur="5s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0;-0.26;-0.51;-0.76;-0.98;-1.18;-1.36;-1.51;-1.61;-1.69;-1.71;-1.7;-1.65;-1.55;-1.41;-1.24;-1.04;-0.8;-0.55;-0.28;0;0.28;0.55;0.8;1.04;1.24;1.41;1.55;1.65;1.7;1.71;1.69;1.61;1.51;1.36;1.18;0.98;0.76;0.51;0.26;0" dur="5s" repeatCount="indefinite"/>
+        <g transform="scale(0.4) translate(-410 -160)">
+        <g fill="#eaf6ff">
+          <path d="M650 160 Q664 154 680 160 Q690 163 700 161 Q688 166 676 164 Q662 162 650 162 Z" opacity=".85">
+            <animate attributeName="d" dur="1.6s" repeatCount="indefinite" values="M650 160 Q664 154 680 160 Q690 163 700 161 Q688 166 676 164 Q662 162 650 162 Z;M650 160 Q666 152 682 159 Q694 162 704 160 Q690 167 676 165 Q662 162 650 162 Z;M650 160 Q664 154 680 160 Q690 163 700 161 Q688 166 676 164 Q662 162 650 162 Z"/>
+          </path>
+          <circle cx="672" cy="156" r="1.4" opacity=".8"><animate attributeName="cy" values="157;151;157" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0;.9" dur="1.6s" repeatCount="indefinite"/></circle>
+          <circle cx="680" cy="157" r="1" opacity=".7"><animate attributeName="cy" values="158;153;158" dur="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="1.3s" repeatCount="indefinite"/></circle>
+        </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

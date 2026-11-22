@@ -14,10 +14,6 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=MrHakan&label=Profile%20views&color=0ea5e9&style=flat)
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/MrHakan/badge.svg)](https://hub.xerj.org/contributors/MrHakan)
 
-<br />
-
-<img src="assets/tanker.svg" width="100%" alt="Animated sketch of a chemical / product tanker riding the swell at dusk" />
-
 </div>
 
 ## Jump in
@@ -113,4 +109,4 @@
 
 **Elsewhere:** [Website](https://mrhakan.github.io/) · Discord: `mrhakan`
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0ea5e9,100:0b3d91&amp;height=110&amp;section=footer" width="100%" alt="" />
+<img src="assets/footer-sea.svg" width="100%" alt="Animated footer: a product tanker sailing across rolling navy and sea blue waves" />
