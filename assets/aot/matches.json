@@ -1,0 +1,968 @@
+{
+  "generated": "2026-11-22T21:16:24.933Z",
+  "about": "age of troll bot matches for the profile README, made by scripts/age-of-troll-readme.mjs",
+  "rules": 2,
+  "play": "https://mrhakan.github.io/?app=ageoftroll",
+  "matches": [
+    {
+      "n": 1,
+      "file": "match-01.webp",
+      "seed": 1531533210,
+      "left": {
+        "name": "the admin",
+        "difficulty": "troll",
+        "plan": "waves",
+        "age": 4,
+        "kills": 320
+      },
+      "right": {
+        "name": "solitaire.exe",
+        "difficulty": "troll",
+        "plan": "rush",
+        "age": 2,
+        "kills": 232
+      },
+      "minutes": 17.41,
+      "winner": {
+        "side": "left",
+        "name": "the admin"
+      },
+      "film": {
+        "bytes": 1359740,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AaEHHZNNb1tFFIbf97wz8ce9sZN77etEsa-_Gid2EjepnUSFNKRN1I-0FaRVi1CRaKQGEomC1HZBBZWAsmAHogskVqD-AJZs2PFLkBBCLPgN6Ho2s5hzzjxn5jn86_mrVw9uvPvTixe_vCbx48OP_sXUk5PjR49PCs9OT1rHjx6ffTL99NOPz54dnz05GZ58dvKPQwLAQKjFN9w-zO9jU3uU3QHYrKxFiMG6icsoa4c5u6MhgIgLyPMhpDZDVnnePfKyHZZsQV0GtomCWiiwgwSxegB3GCBkDse6YoBxzA1WeUSwGcEpztm-X1XX-soDtk7DSG3EFKpY4DRihujrkB0roKFNbvMcyqy7GlNW2eS2DWzg39ZF18a05jiPGpyGCLSGeU1hGAGMoU1W0bI9gjn00GJRM9ZFjZd5k9P2A90eXnO2b8YiOvzO_IhzMyN0NLARGnRRPm7ruTqWIOEqq9jmrkt5AfM6Z2X26dBGhwmqvKTQ-rxsNTY0DaCFDr6nL7t7WrW69SjkmXAaLR5xPQpiqIkx8-7InJZR0iwWuQSgx3OIOOCHpUUVOWJoW7rtYnxD_4GK-S8JYMVyvGiRH9p_jIoxCHZLs3zfgCGqWCT4NV0Y7NhLClzRQ7UAiCkSS1RwRWZRq1ZHTbP4m77LAYDUwEq-gCI71uA619iPSvGZtnWB12eu6B3ecj2WUeKc_shAlvEtDRhjoxD7WwxLl2xXt1lghlR2jkNWLVGMPgZROa7qwKXI-TWkyH7FrKAt3uEXugsg9PfY0RadwWAdHupXMmbPAQB9JlS22jwErCBwzLp-px8ZADcV34-ymtCp7nK3BNR9CTmWcVUXaAZrMrAq59DETb3nc4AbskPZLr-injLwbiJ7gBVIuwRXMhAlqtg8K66JNF7Hm9zTJdbV5kDns3HCFN1k30Dmz5jL-jzLgxG-mKFhk0c81Qqb3PBh1CV4KE26KhgcsMUE5KxNqWtNXMOSBw072ojBlyQY6S3e15_0YMipyW0Bssw2jDt6oDX-nB2C15VOXk-TyYILOWDeKgxsLQpnTn1Alz_QNa7wBltxJmre11BRgC2Cy4CJA5djqK55HuA3-qts5JeUFa-wbbCi2njKtupM86aUiwC8xrzIlAOOOBFU1zmnu4wmrE5NbjGMN3mftzjmFQ5LeQ5Q5bz1aJN-wZi7Sthw27YsQ0qHWT9vjvvmBRa5iCoTC9FQiiXWRAS2wG0EbCFgQX0O3P8"
+    },
+    {
+      "n": 2,
+      "file": "match-02.webp",
+      "seed": 118000834,
+      "left": {
+        "name": "autoexec.bat",
+        "difficulty": "hard",
+        "plan": "turtle",
+        "age": 2,
+        "kills": 191
+      },
+      "right": {
+        "name": "ms-dos prompt",
+        "difficulty": "hard",
+        "plan": "greed",
+        "age": 4,
+        "kills": 268
+      },
+      "minutes": 17.19,
+      "winner": {
+        "side": "right",
+        "name": "ms-dos prompt"
+      },
+      "film": {
+        "bytes": 1401006,
+        "seconds": 25,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AacGJZPNa1x1FIaf9_39bpr5vO2dtpmZTNqambmpaZo2mcaPTtIktKWtVmsbP6ooNDZBEGJLWtGCmyKIoNBFFTcqCm4KLhRxI7rRjf4BCu67FPwX5MblgcPhvM95jh7euX9_1-jHv25s3P9a5re_hluMbG-ub2xtVtffvn1j893N67Ovr9-ubd06unHj1qGb2ze2bt6-GxlFhHPcSVKV_bu4J78R0DKfKx5Ne1rJcE8p8IPCj0pqOlfv6mqwr-pPxTUuA0oILfcYNp4W-l6BcCnLjQ_HKT5RgqrAU5o3_koBTYe7jrBGSBCa5B8Zz4dimV7jZ4ErWV1FuQxxnAPpQyVVnTWGSpjTitIwBL8jwkcqFdPgX-9xfZnzXqLbqCc1rWorzGlSk9krobS7qid505tFxpwjCToTd4dWaLusDs87ETocEhYY8kExcKRBgp7xh0UgZzM6Zfyy0DVgyu9LBLRW_kLps7HPKo1kJox4Sm32hkPK3cOqqK_cL4aaFhvX4ylSelSyekL4pcg8DISXgANeEprWXZUUoSrU07cyzHElIRCuGE-HexJ6VWjYiBHOCqVcM-TZ_23bhu-0Z0OT9Ud10FmYcEOzQgO9F-EyLZqkySB0vOBNO5SIOsnpxmMi2YqQu5OVRaj7CeboOQo9UOkMbXfZ537cG9Au8mDDRR8RKvOpPE7fPR73SWZ3jprGPBT89tPySY_zmeJEKIBVPWA2yxv7DfMe8LfcZMIx7ahE00GDKB1QiTJLoeNdWlPhyUH3WWLAudjcEW7gKmkYmDBOhURtTetiHArZix5jvhArgzQ06LnJOK3GN_Ij9D1gKXaKJZMS0HfuiTDKCZdCP9hdzanLC3FUqMOYmp7yAisc4w95sXA0KUNkhwxqqcnxDNb9XDwBnPJBQ60xcLuIG6ou9CE5rjneimUmOO9L3mYV7Wl6RQWhqmvaT89TVNxWTSldHyqN0o8LBocZ5zjMU81Ohy8Vc5eSigLjHFNTo55WGmva5y4D6iL0fYeW-7Q9JkLGmKdijywQRgyv-SeV8jjkglsc9iyDDBaZ3AESdx6p5gte0AzL7vAf"
+    },
+    {
+      "n": 3,
+      "file": "match-03.webp",
+      "seed": 550413799,
+      "left": {
+        "name": "bonzi buddy",
+        "difficulty": "troll",
+        "plan": "turtle",
+        "age": 4,
+        "kills": 289
+      },
+      "right": {
+        "name": "clippy",
+        "difficulty": "hard",
+        "plan": "turtle",
+        "age": 2,
+        "kills": 218
+      },
+      "minutes": 17.68,
+      "winner": {
+        "side": "left",
+        "name": "bonzi buddy"
+      },
+      "film": {
+        "bytes": 1319480,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AeAGHVNLb5RlFH6e87zvzDfzdS6dr51Lb04pM9N7p5dpCm2nAxXSCxRURFMtxFJiSqk0GBY1GhIJOyMLFiaGLXtWLExMdG9M_AkmJv4D3erXszirk-eaw79OX76s_v76728O_nxNYvmn6Z-ReHz_s4Pj--H-oy--OqzuPzk4OE3ce3h4cnL61iFAqoUePrBJ_UN246a75Wt2pA0DNtjFXy2bwg0P3WPR7rg7toqPbYJQnQ4LhT3f0G90wI71CxqLPjVgDD8w12GHWcABz-lfUVmNGAy2zFD_MruAFmroEN5wjpuuWIA5gQ3VFEZJwEawhCPAXhnhhxk64JYtWpNQlaMa03UAbwhY2YO73HcArE2wT31qKFFI5cvMRDUDJjFu292HbKePtemquEGzEi75XX3ApAFV9tsWa_qRAJ56cJtdLlZbj9KFdYEOz6kMvzQA2AYM-ETgXvauD_m1g30kqGTdnGI_n6oMYA_Ag_gcgZ_lC6oSdRdOz1BTcRK4IvA6wRFV2OJ7Z6ddcWL2PT20ww_1hjGhpePthtAMk3aJ72uLk1zhH4zi9OJJF3AW9QCfUTe1yV0t6pBdfJRHgDO2I4IXAJuCfJZbLDkgw2N9S10WuHTmKc9fGKXPIMMY0oATwccq1_SCKrNEZg8sxBpCjJgpZfNGLlpZfQysRWifziX8HCpKoGE5puBYQ8hB9GoKJaTtMos2LmKaTcsR6otC9MI45HoUkpgD1KC3CTPN-3RcOZP2jKrT2102GGDSQasG1n3LEmyKGEWCg-zFonJYQsBzmNAohs046vsNXAG1xYdABC0x5wL1YJC9iizLQetVjw0xhT4_atAGzYp8zDFuc4e3CTl3xUpMmfNX4fQuiV4WMSfDRSRZ0wA91pBkRynLMW87kCpR0opsaYAdznKW15jBDNsMkNAsu1yoKXgO2bAapLVNmjDns_yOWudtbnPYVTSAgA2jz3AZoRZhHEOgcZuOPC4wiOuFlEg3mVHCZplFRe9gnDnUVba0bzNraU4gpav8XJusuApXeTG2hGXmLdC0eRY9MWNePVznNUtqjfNcYBWBFmgujLrMfJtCS2UTm_Asa8yeMKduzHBAcSUryvK8aqwiqTo7HEKCTc6yBOo8l7kGEtpk3paV-f_X-hhZSv8B"
+    },
+    {
+      "n": 4,
+      "file": "match-04.webp",
+      "seed": 1543297100,
+      "left": {
+        "name": "nigerian prince",
+        "difficulty": "hard",
+        "plan": "balanced",
+        "age": 2,
+        "kills": 133
+      },
+      "right": {
+        "name": "dr. sbaitso",
+        "difficulty": "hard",
+        "plan": "waves",
+        "age": 1,
+        "kills": 67
+      },
+      "minutes": 8.62,
+      "winner": {
+        "side": "left",
+        "name": "nigerian prince"
+      },
+      "film": {
+        "bytes": 1268548,
+        "seconds": 24.9,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AawDJZDPThNxGEXv-X0zBCkMpFM6dGoiBcT-wVKBitHYAopR0ASRSg2JAW0jXVi0uGGrblzjxoVv4Juwc-XWRFe-ggtDfYBzz83h18np6d7fHw9brd9b6GRp-qsGeu2D1uv2aLfzqt3rHHQn3_Q63ZftRKtXnjx-cdB5d3z0B0lOkZD1PPP3uKgjK7orTCsfDiUlaca2-QCHwU_8L1iDFWJPTmTIM-yC8QnNutg-Yt-cXw1SUVKDJMhQSg6w4y1rwLKhbMn549uuqqoq-o4vc5K2vJpLIsquiLhM2vKWclJeWRW0K6mK7Ixk1k_T9M7vzIe3XOyyJmI3YlmKxKRIS4oVu9hGuC2paPtj7_GrzHiRlu2pbVjFSXME1KkN-pSTC0RuWDNshJ7kzrDPRBPsWpbYFzmu9XURFWp2eF5Jc2zYEJNWJxVkVCLnnDVciaZFPAnFdZ6xxw5NGjxmn0c8Z6q_MtLnL3ADWUILjNodKlZj3m6yyVVqJMICZVtn0fzzMAr6xCXeIltklRVWqXOfXJCjzhqr3OUe-cGIB6ywxiZBWGDKH_P-m9qW4RM2yz8"
+    },
+    {
+      "n": 5,
+      "file": "match-05.webp",
+      "seed": 938702636,
+      "left": {
+        "name": "autoexec.bat",
+        "difficulty": "normal",
+        "plan": "rush",
+        "age": 4,
+        "kills": 282
+      },
+      "right": {
+        "name": "ms-dos prompt",
+        "difficulty": "normal",
+        "plan": "greed",
+        "age": 2,
+        "kills": 253
+      },
+      "minutes": 18.74,
+      "winner": {
+        "side": "left",
+        "name": "autoexec.bat"
+      },
+      "film": {
+        "bytes": 1377996,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AesGJZRLb5VlFIWftff39vR2evm-UyilPfQ7155be8AQFLykCNSWnkIhoIHEiLQTY1OuUdQBidepEidqmBATZmqi_8ORv8A5A_-AvnX47p2stddea7_6-9GTJ6f--ai7s_PXLxI___7iMUP3dm_t7O2O33r4YH_3493by-_felDcu9_b2b-_eOfe_t6dB38mgC3RCOiubifwVLbJgM7kgF6GP5V-lY9MwAaJLgZk9pM8WFOPknHheylAm5xPwAphnmmfsZxVoZreNuhbnhXZ525Y8uH_GMp-mtxqtLUiVKRvazyWwVdiMfS95qcMFnQSLBM6lZLAFk2WlAeUWuQ74iWKXiXxRYOWeTYAoQrX7AYVvomIx0IsTdHijJeTab-qdaHuCHqhKVI4GdAsA_uQur0yvZ2VwFZ9nFyirY6O8oG_ajAAtvlNAV3XWHJYs-w6_m0k6aRtoGJdKjYWuuqraPOq6HNl-CRYTp9jjpoq2DVaLLECVFmiOvKHEmh4n4YuhZZSsDe8aGtCk7bMaxqzQ34ijRNcsVKYo8Zp4amlWUPodISyRDU6jnKqwLwu69LwQrjiXypp8IWsxZJNa5WSoy2hGeCC1VOohugA9Kzs7xmMC614PyvYdYgSdSZ26TMh9EyTz-1gBZd9cuqOow2h3bSS1OjZZ1TZyr6WYfNOwCsaJtcEuRJqDKkjvKEFcgZ2DTgaqqp7Tw8PgrRmrp4a3rKhsEEH6Nioat4CpBv-LjCnEkczwrjFV4tUKQuOLuq45Sg0CV5XFFmT2fdKsrDAlB9JRx3NWpui6spZoRLwglU91xhdYEYtnbBIdd7HORzq6vqMHdEkixnKVQJKvmpta1IODY1wTFejfo8p3xy-GZaF9pLUzzLmZYLKaVGtMGFrPgsH2ztkNWY0wTkfZplNs9BGQk0SrWf4S_a_23WdY8Ca8M5BfNPkgheIGVv0nlAPbIW3KAXU8TnrMib0MmcpeNluxnMMDTU0ZBUvUFUlHfE43bRFl97MRlkNqO3opp7HRG94RZuqekXPdIB5VVtaVt23pwix2bIm5_nRk09pcDyL3saldN2tq7qO23dSyiHh4yyE6RSmhOaASV9X2Tq8o6bHm8KawgMDNeTAuroqWkmHeT1q9VwD_aDEhA_isXuupsV_IPIt-3YEYDRc0b8"
+    },
+    {
+      "n": 6,
+      "file": "match-06.webp",
+      "seed": 2109162979,
+      "left": {
+        "name": "dr. sbaitso",
+        "difficulty": "normal",
+        "plan": "waves",
+        "age": 1,
+        "kills": 61
+      },
+      "right": {
+        "name": "clippy",
+        "difficulty": "hard",
+        "plan": "turtle",
+        "age": 2,
+        "kills": 135
+      },
+      "minutes": 9.06,
+      "winner": {
+        "side": "right",
+        "name": "clippy"
+      },
+      "film": {
+        "bytes": 1315198,
+        "seconds": 25,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AakDHZFLTlMBGIW_8__3Vt43fVgJ1AJ90du0pZGBOsAJQdGUQmmtMnAAlgFJDQScMEBDjG6AoW7AFbgHt-BQN-DAudbxOTnfST79ury5ufq29XM4_NM30vXF9yTOjw-Hb46nh-fN5Yujw5O3F6eJ16OTs7PL3yILGJNtPQiee5YW32WVdCVM2X0t8kgRcablH-RfFTzlYfRFWQwyWqBohXCatYzryju-oWGA9dM9SuxxFOJ9FT0f1FJTIlw07Bkv6HPBDzmO-jYIsG0h9FHkoiRda5JP74QjR-XgIDUmjcsV5DXV6Nk76nxWiNrJOOiRFn4tw-Z9yucoKKbMObCW_qTpvF0rW2QmXNdUCstrnbY1GFiZCUdV26dum47X6Ng2FevQsgFLUVm3qWqJAT06nKagzQEWjm-XrETDCsS2T1M4LmvQYY-uHVCyJ47wWyTGmbaosUvNRrykwPb_pVesWpddOvTpEttGdIeEVlUgp1ghFWtRtZUwouCzYA1Cf8yEIp-xTYkd1mw2rKiYGrvL-z3mPB8sq-rz5JSxnCaJSfpdawhtaMEzNP9Z_gs"
+    },
+    {
+      "n": 7,
+      "file": "match-07.webp",
+      "seed": 133969568,
+      "left": {
+        "name": "bonzi buddy",
+        "difficulty": "troll",
+        "plan": "balanced",
+        "age": 4,
+        "kills": 321
+      },
+      "right": {
+        "name": "the admin",
+        "difficulty": "troll",
+        "plan": "waves",
+        "age": 2,
+        "kills": 233
+      },
+      "minutes": 17.29,
+      "winner": {
+        "side": "left",
+        "name": "bonzi buddy"
+      },
+      "film": {
+        "bytes": 1359002,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AagHJZRLj1RVFIXX2uuc6qpbj666t25VQXdV3aqG7nq1TXdVPwBtCIQOIISGBhVBFNIobQIYXwkYoiaYOCA6YODU-BP8A04da-LUiQNH_gIH5pbnJGfn7J2slf1ln8O_nrx8OfPvxo_Pnr34icTL7_98F5mP79_df3g_f-_xo6cHyb3P9vef5D59cD-5u__w4NE_DoChDkK3PN02Z_CRRtZEkVvsgnEPhSgTwpze1yaX-S1LwDu-wctuw-aV6CifE8AWobEBQ9QtQZdgkxsGPPXgrgPeEthTO4IUpp5tG6LNgH06B1xRohKAeQoJ-rwJWEddVi2P7-jfSK-WuGUGrONLBf7AgB4aNnANgh1GSrTO5QgKQhisjx5iNHGIUBl5S-hxkuAEwClCpx1w3bf5O8s1f4nOCraFX6zisrt8T4uRA1w-DLlg53SSn2jIOQCvc720Qeg6gB_odwC0rW4F9bjLOQe7RjBRkwNeBtByc6qxiFWNAOxGpfAb-g9LKagud1JYBNsWI2JOEzrAEmxzoFu87YAjsyt4QX8OSCt6IFmGa7yuusFWlUGd61GO2bCOdJ20Kg5NieY4ThPuawo67oCc_4q6aGlyz_c4shTRisY8xjYradriqcYlQtvMlg_xTYLPmb1peYxy_agYbhLaYsEBn_u3NdSa7gD2G9P5wd__h1x62l4OTHfAGqtKWGeLv7LkPQS2OOGEs66kChyrETiPkirWRyHcRIAz_gYHbGjFYCW2GcG4xMe6mk4qLvgHOsU1pkq36zPTPjwzU_Oiejjth8xzkycEvqqYtTic1jy9S-N6lGebB77FqophrIsKDA6WS5VcjVX2OVCXP9Mn3NFwCoUKpogmqnGTp_kBm6z7Hif6QldY1SKXUrSWn1qJ3QjeockmR_yDpTnV-dgB8nUusYIYdQWoWRsBYyuoxpkwsMMM_SLELKpooqKajrt1CxSzZUU2rcA-OtYD0MVZ73FYGZTYYIQNl-ciAtUiQ1UVm-WytTGB-a55voIu27rGC77FAau6yobqHPqY58mwKpZvGXCMHkdshOM-VhkNZrHIMy5gA0f9LMryNoJPHxr6LNmRKMeh5bFmWR8rjyUJMc8CVmCHBYx9jQMVLOb5LLiDBTh_R2COsWvxLDK6wTJmNWBb25yxkk4wk93iqzzHMUfcZC8qcMxVLoA-_ZsGHLPv9tRBhR21vCzknpZAdnSMq3SYV8KBZEfZ0IJFbGmeLbUovKYmi1hRwP8A"
+    },
+    {
+      "n": 8,
+      "file": "match-08.webp",
+      "seed": 2063174847,
+      "left": {
+        "name": "solitaire.exe",
+        "difficulty": "normal",
+        "plan": "balanced",
+        "age": 2,
+        "kills": 207
+      },
+      "right": {
+        "name": "nigerian prince",
+        "difficulty": "hard",
+        "plan": "turtle",
+        "age": 4,
+        "kills": 309
+      },
+      "minutes": 18.97,
+      "winner": {
+        "side": "right",
+        "name": "nigerian prince"
+      },
+      "film": {
+        "bytes": 1310100,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=Af8GJZPNb5RlFMV_597nbaedttN532ln2qF0hk7ne9qhNhoaQFpD5FNarHwqQmijTQC1YqLEhLCRENlhjGHBgsSlC_8CTVzpxsS_wETj1jU7eetdPvfJuefec47-_uLJk3svHv-0tfXvjzKeP_uyysDu9o2t29ujn350a-fujZ3d7YXtz7dzd3Y-2N7duXGn8vHuzp2b278EjKE-Ba2Gq_6XtGRw3Z9K96N4rEEtQeih7LnCJi1WcgmX_Yzvtx4zfgtsVNP6XtFJjQQ46yf9hB4LrEbDqhSS60LXYgJcivAfxE3HJwxr0GBJ6GcL0IjSOc9k2LdyHM-xCXSTGeAf5QrqjuX1u6K6FXxfiNXQlM17hr4q8cwe7aJPUFCRtu5nrkQf-mGhmreSASP8YfmR8WVNc8z79quimKaaMWHGY8Z027MG6_QdHbAHKf1Noa-UnQjwCbA_qUUZe98n6fmG7zNMWtURfWcQEhEVY9c6fbB1xy8AV63g-AqRaqq-vOqfCvv3tjyY1FgA67Pk-EPz9PGiQdcOcDZTz01pIv4sGg0jqjCrV8HwM77qS3KwFk2ywucMmvabhMaSmdCkG6GnAlqOb1qV08KvcN7gkfIdXfPBeH7sG0X5MK1J9imhbUXvW3q4cc0QdIA17ydoyprAI7PC0CE6IR_hUykNjiqhoDJnQkl4YhfB6o6GORdnHJ0mrZZBgxcKgLVTcR2PaNqFvfYbQmvJULhsG6nU0Wt70OfpAl-n-6BlWw8LPJClCN0Y6rlGaPggLXNvqawEmNGw9Sj7Oc_qqB8PWa8QqULHNqlES0rnl5McaMyPWUboHBlvBLykArHKtL1khzzPuAoGHdxTbk0t-EjcDbHnaVqPHu2opQxVHwo5va7M3t8NUqp1G_ZVRwdDC6hTig6ReN5KGrcWWJzg06GgrAZIVPNXNGiznmNJs0DZM2my2jSp2XwUxZFXSWUd8FlyaumUkgDHNWCwQce63As9WwTO8pat5I8ELKsKVeQbajPs69ZT3UOYp8-cLUdzjKpiUI0nvWSTmtIpz4YUYdZXrKh6agUvhIymmfNgVcpaZloroeFGx6Cios9yyeajwVBjQKm6Q2rwtvfsRADzu7RteGiNhRjeoUabRd6lSy5b3rPAHIsoOqwtT7OYeuM9m9IyLesypVHrgL3pk2AnSLxk_6dj0UoqvrTGfw"
+    },
+    {
+      "n": 9,
+      "file": "match-09.webp",
+      "seed": 1555744142,
+      "left": {
+        "name": "ms-dos prompt",
+        "difficulty": "hard",
+        "plan": "rush",
+        "age": 3,
+        "kills": 199
+      },
+      "right": {
+        "name": "autoexec.bat",
+        "difficulty": "troll",
+        "plan": "turtle",
+        "age": 4,
+        "kills": 296
+      },
+      "minutes": 19.21,
+      "winner": {
+        "side": "right",
+        "name": "autoexec.bat"
+      },
+      "film": {
+        "bytes": 1322356,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AeQGHZPLb5R1FIaf95zvN51LO6XzdS7AdDrt9DK9jO0wbYECHUpbWh0uYm2RSyMgTTSxgUBJNNGEBQs1ajQk7ly4wxh3xoV7l25cmLj3D3Bj3OqwPsnzPu-bHP314fPnt3_59cv7H3_2k4wfnv_2O4lH-3fvH-z3HTxu3H_wuPrw0YODh4e9d58cPtj_YP-dV-7dPXwRAUZqgn79aRrJToY609qzmqO_Fa1ylvP909byaW6ahM-TpY9EjEZye2FRJ6MdG3F8hjFu26zwYUPn2GKLKY4L9QL5kKBP_yraMXd82kcsrWFN2VmOx4P05aZo9FdYBWoUaTEQ0LYXdC1KekrL1vKcJ21WNVulxRorLNEGFBBhnH4u08ugGvZUthT3WDGHRY7QoE0LR38o0kCVOcqUKDlyToWintmRG5bJ3PS0ZZXXR8I3GeN6dJ7DHAaJgDe4wUgc23Wh76QuthytsGUXOdJf9QlqfoVxYJzxUOZqqNu4IuvRHaHHQqej7qKyiyzkAMqssRMvWT3geJU0NZvxXqvoKEkVwo4-VdQN2mOLC2wYLHKs28fT3cpet7oF77q-Z002adB5Ca5R6OoFJ_lS8yD-RtG2fSk7CXaHC2ScgGe6V48t63lbUl0JK6nABqMDSyRSo8AQJ4TESMgwrJh_lPtRcdtxwlfSt-qqK3nkiW3ws2yCr2XWP6WYlNc17QXLKS-jRNELKltDeZ9xY05nPGMZzcsY8oyKNkfWazZPJbzBLeuwi4ekXfRBCsxq2Eb1mjdIqa11q3iNScOzLGjXAO9ongG1fdJq6o2HgkVb4Isq2gI9LxPLnsp93zWMdZymvcoFTti94CzrkqVJepuSFi2lDZ1TRNMT0ftu1iStJgUXVS9jcd7fDXU7oT22aZupE0mnZFzhC7mszFES3pMrhVm9kF3ClKFp876k1ACpTGYoKniFMeVo6JhF2iThM2FLh95j-1JU8cB5PpGd84gSELzik1rRM4Wk7UZBDa7zuWzGcQM75RkyubYmGdNT2evKMMGYjbKuHktzg5uYrrDOjFK2zpqnrMk229ziGm_xJrvcZpMOZ-iwwSbVLjWctjmWlbQx3ibvwVqscJWiqqywwhnM07ZGh5rcWux4ZC0u21HPctlOM49rmQVWOSbRokPn_0_9Dw"
+    },
+    {
+      "n": 10,
+      "file": "match-10.webp",
+      "seed": 970018018,
+      "left": {
+        "name": "clippy",
+        "difficulty": "hard",
+        "plan": "waves",
+        "age": 4,
+        "kills": 275
+      },
+      "right": {
+        "name": "the admin",
+        "difficulty": "hard",
+        "plan": "waves",
+        "age": 2,
+        "kills": 202
+      },
+      "minutes": 17.95,
+      "winner": {
+        "side": "left",
+        "name": "clippy"
+      },
+      "film": {
+        "bytes": 1363174,
+        "seconds": 25,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AdcGHZJNb1R1FMaf5zz_fzuvt-XembmdO-1YaaedDqVc-ia176CUvjNKGigxApZopZgGNbFuDKYLiYkx4M6QEDeS-AlcuPQDuHRr3PgtzHRzVuc5-Z3zO_z35MWLub-2_jk4eP2axMp_v4-h68nD-wePH3Z9dHR4fHyS_eKTh4P3Dx4ffvarQwWAIQahR878Hur8ykx77MJiCAA-CtQqXeYP1B3eMNglJuUcdw1IEavABcC-p29ywgHv8zyAAR1ZwfoFTbAOYIqX2AJsPmQEjQI4zzm8ooux6sFt67NE0CjXALxlRcQCJ1hlP2BrHMSAnhHAE5_yDQdrc8BSzbIWMgq0DljCgO9yNhjXBdSwjKf0P1Gt3r9pV3pSLjpyqAI43kOX9q2sVVwJARflMFL6g_E3md1zmzwl73KLGwyCG3zEdS-7zJQZl1T6lcexslhFk4nVwkIEpeVztoKR0rZdJLiEKp4z-wvjWQc0_VNqk_ts80TvsVa-FjguYMSAkbAQ5Sz2bSurCzVU0M2rvM1FFxLK2ryIlA8Aa2DWruMypjz4saAmgIQNB-wSzFjFSixyhvMaA1zKARvUhOphKZrLnHYONuQPucUd9lCATaJMcFRzBkzibYEP9CMdDO7YF9jWDBPu905iEXWBw1YIqRiIiowlbMDYprOrbDK03-gAZnfwM9XjEmT9BXTHfRrmNclgK8gRbKnBfPlPege4DEflbJnEru5F8M3OCKxqxgAQHA4DS1XgOGDdekXeVeDnCZ712ZImUVUC46edmG-w3gnaMwqKmYuXeIvf0tcdHFxO0wSDaFUVq3NUGQyWHapYC58zrvlm5yEBo5Y0zB1-6b_WdFCmR2KDhEL0cVIpb_I2nYNN-fPmOQ7TRQZRoQPMYaxo2oA5OB4ZkBV8gXdYDVOeUksdUwZn_roKTJm3lnpQZi8aOPJZwKZl-JBlg-EMYp2fR_Apcw6uqjY3ed8vS2eg42xyWklYYEcsMHRWv6NfVj_HtM6b_KDX_IY1ech-X-Gbrs4GjIkuWqJ8VGSAkvLlEEVMYwYjFCbRNnioL-7hHte5n6mxxU3u8ha3Oew7Vjrbz2vK8iryJZWwqrwBVdY0wncIKZONegFcYp8qXGSDY5xgKSPlANS4wP8B"
+    },
+    {
+      "n": 11,
+      "file": "match-11.webp",
+      "seed": 1707171200,
+      "left": {
+        "name": "solitaire.exe",
+        "difficulty": "hard",
+        "plan": "turtle",
+        "age": 1,
+        "kills": 138
+      },
+      "right": {
+        "name": "bonzi buddy",
+        "difficulty": "normal",
+        "plan": "rush",
+        "age": 3,
+        "kills": 182
+      },
+      "minutes": 11.03,
+      "winner": {
+        "side": "right",
+        "name": "bonzi buddy"
+      },
+      "film": {
+        "bytes": 1330802,
+        "seconds": 25,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AbwEHc_LTlNhGEbh9X7fvznYXQ670qJAoaW09UDZtCJqorUJWFESE6MiRKNiG0OikniKh4EydOTAC_EGnBinOvMSHHgZRqdr8CRLv998_tz_dvdDr_flkfHre_yDgWf9B70n_ezz_cd7Lx7sPes3-q_7md39p2_35nZf9npv_hhDCD-pOX4a8ei-mVJ1wxY3_RVYHNW0rlTvVEmafiADc3RdtQAHilLNGjbqZSoSCxblUEnzHMjRvdARSn3WdhgTXtcgUImydFhSsFk1bTppCi9rUceEKgqh6Ms240ZDgVWmvKI84zqmlIzN5Ba4E6Was2VHi2qFosoyapjwjX-CHeGk53ho8iWhLNUEZnzCngrFlPSvVu2jokJoeYYdzthAbpW58U1t64SXtO23ZEaAUdaFJq2g575kUCFOoC1U1lcFWIlKViPja4ZXNc2Y3qsivKG8bfggFU2GM2pRVNEGfYwLQnVlbN0PUdYpsGnlSRMsVoE6A7rAbc4NT3GHLdoouhxWfIJRO8eCG3v_D-s6Sl5175K1jsbJeTGkEruW1wgT8iRja0ItspZ41csEdZUFS8npBIesSkEdquQ0yTJXuTQcs8UmV-jQjoYDTHvboGt1RwNsJrtCUYANR1M2wmkrOe7U9ElWQELHbZIlO8KqXWHBzo4bp2yeJiWhHFPK02RIDeQtClbUGIlmqYO3ySRNjznPRbps0GAougYmtUMWdN9qEvNasbwOc9kTRixFumExZUerVqWqDNgKLYIv8hc"
+    },
+    {
+      "n": 12,
+      "file": "match-12.webp",
+      "seed": 1328566463,
+      "left": {
+        "name": "nigerian prince",
+        "difficulty": "normal",
+        "plan": "turtle",
+        "age": 2,
+        "kills": 239
+      },
+      "right": {
+        "name": "dr. sbaitso",
+        "difficulty": "hard",
+        "plan": "rush",
+        "age": 4,
+        "kills": 257
+      },
+      "minutes": 17.11,
+      "winner": {
+        "side": "right",
+        "name": "dr. sbaitso"
+      },
+      "film": {
+        "bytes": 1320670,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AcYGHZFLUxx1HEXvvb9_M8DMNEx3hoZ5APNgHkxkesKzCgiPgMhgDIKVClqWhYKKVcEw0YVutHTvJm5c6caFli5duIkrv4kLy09hNZ_gnnsO__nixYtH8fFfFxd__ESBL_f6GBpcnl88vRy7vvrocnB1fj37bHB1_cFl-mKwMPv8_fOrz55_-rPDMAir8inOFHvgv8TX1C8cG0KVo-6J7XKUkboBAMzZ9_LWuUfPv7G8ygRrjPmqLbPsllhA22rI8qFCO9B7AOph1svwNRY5YU5dlgO4Yc4hyxJG2VfGjgTbZA4VFekj4oTyBOsssc0q33XA60gbbFtNNBF5OxqyFU4pzbo67GDa0qFTlWCBRdZY5xQjNh0wyegWetE-trb-Vu6M3vh3tN_pb3in7PGJa9hDjqpJQx9LFgVNxZwHVA373iFbbLs0l2lYtw0Ba7bPR0jbrIAiO4JS7PMbeutsUg5o8x07tT0Oj8YIbDuAMmwxD2CWcyHYldl9_kYHpbwFFtBU3nbYBeBxDhnbBGRcsRXu8g3usktw2EFlriJlLf1A77FlAe0yF4ywgC3zQwJqILR97nCbO4kJl_zOsMADWxMwblt0gjpK8U96q1wAkGOApoas5DL83I74rYK6vxOuAPhK0Ce5QECBi6jZKSL-R6_HHquCgxynFXAam_bMehyYn-wpMVegr2WmOXmLUGQ-ALbDdUBARWWvrbZVneMSJwXeBTDEGXQwZb7qaMDZGRs24CIzrHLKZVmTx5gzGmEZDyDbx5Yd3lIcwffuoMi1AAo4gXPLhqaEZIb32LPIGUscRqwUy_LYJ9FliXLzGOGMoJwtIlZoAdbMZ8elOCOfpUQoJ5nHAtbtvvOtgi8VcErHcF47SLGcVEGZBUaCSlxAiQHCMDJzwIGFun3FknLsccSJyWJdQM8-tCTFCT2cOBjY4BAiZhUjxwd6y1UB0KtonF1OqI1YQM4SH40ALsd7PLQxdSBWtGZ1tAAprFkKv9LFmtccXsGNqykGcKIWblxXdwEdo4GN3Aada2lgl_xRXuRuu5Goqos0KwK6yocZgvMBHJCyN1G3x2wrKfi2PJtGnlX2GSnDulbtDjqsqZb8Q41LmuAq6tbE_w"
+    },
+    {
+      "n": 13,
+      "file": "match-13.webp",
+      "seed": 533432828,
+      "left": {
+        "name": "bonzi buddy",
+        "difficulty": "normal",
+        "plan": "balanced",
+        "age": 3,
+        "kills": 178
+      },
+      "right": {
+        "name": "dr. sbaitso",
+        "difficulty": "hard",
+        "plan": "waves",
+        "age": 1,
+        "kills": 108
+      },
+      "minutes": 11.37,
+      "winner": {
+        "side": "left",
+        "name": "bonzi buddy"
+      },
+      "film": {
+        "bytes": 1332980,
+        "seconds": 25,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AaYEHZHdSlRhGIXXet_vk5nGGce9nT2OiXt0Zu_xj3H8jXDMmbJA-9GsMRuEUkdCQQ21AyMIgqCgg0CiO-gSuoQgPOmoK6iD7qED2R6_D8_iXYt_Ts_O_POP_1ut8z3iw9SvPNqOdjZb-zuJrcOD17v5rVet1mmidVTOH29t7p4cH_4QAIIsCN21s6bAEwB92hSfA267E-pn6hoX4DPMjKUA4JPoKjvsLJ8xYyDLaiRAQQ0S7Mc3cdsdJfTAmtR9Oafpjtz00EZfs-qhj2mJZQpoIJS_BCSvYM2CZQO8IFgFZEKH9a2bBTDsFARSIRhojgVE1LIFVwW4rnXdA2QQvQQL_BnpQjOKCQs-Vk-b6REUFaSMM2DW7UQgIUE6gwD-0dSziC9pCco3mo3dZkqm1QfwkhM6RApQ0mV2a5XPucI5N8dJq6aCLqYloxn4nALwOwLf00YlPuJX6kxqBMAic3aKSRMw1DUBhlBEnhUbF0jZ_U5CwRgAwwEUdcN5R4Y6z3tcstbEua21qG_x2B2tBE_LDLTGO9rDW3zAab0ZbYc4k66HGjtjATfY4DrLrNMxQJfNoVPTElFjBBt8qvuXrkGu2Yo-ZJNfqHddcJK-iQ4pDgBw2KF19ujCZVhvOhIUNClFBlrhqPYD2OA2r-oK1_mEVY7TTeV5jaOcYd5ttz2mn4IsPTR5RR2J3nCR1DnGUWVOVYBZNgidZ4kl3mBCrSxxhosM6MPwAg"
+    },
+    {
+      "n": 14,
+      "file": "match-14.webp",
+      "seed": 909600360,
+      "left": {
+        "name": "ms-dos prompt",
+        "difficulty": "troll",
+        "plan": "waves",
+        "age": 1,
+        "kills": 79
+      },
+      "right": {
+        "name": "clippy",
+        "difficulty": "troll",
+        "plan": "greed",
+        "age": 3,
+        "kills": 192
+      },
+      "minutes": 10.06,
+      "winner": {
+        "side": "right",
+        "name": "clippy"
+      },
+      "film": {
+        "bytes": 1369434,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AYMENZE9T1NxGMV_z_nfC-3lpeX2tpQotFB5KS0gtL0tYomNC6JCFJ1MCCoYTUAICAkDm5uLCZuziR_BxE_h6OLmp3AybeJ0kuf8kvPkHPtzeX0dN9-8vbr6tis2fr7Yo-_04OX-0cHQ0dnC_vFZ8eT0-OjkQ9_rw3cnJ5c_RA4Qhtv1Yj-NZ--1wbnKEZlkDvKpHQWubMM84gEfzbDVcMvbEZiPqzEfreqhw3pWC_htqdJw0rA5d-Gt-T5LGdy4Rl1IRQ3KOMPqrBnWUC5Ef83L-hh2KHjucLhnQIEsF9a9B4bDloSaTChime-WGfDgi6U-aaRPEHNt_qIrCaEZC2yKYcswZglFIVQ9z6UZs8BylvHG2WSCTjLSK8XsKZmJvTuM-d3kUwF0NMVn-x_uY8teTQ3usKVBnoaowlfzDlRnm01KxNyiw43UKKENqeGGSNioQqvyRGmHm2FVE-S1SEbzdLjtMPx-ArWIwjliYjVpUGCRFivUadGmRps1msTUe9pknZiiXO-xZK-zAWZUYEFFiloO4a5KjGue_m5nbrBLupKa3jSbiohVZZJ88pd56-poZGSObc6Dx13Y78FWVoOcspQ0SxyiQdYpapQObcqqEGkhlaAs3-ZdgtDL200XKWDIZglIu7wVbFr3aDOpQe6rRlZT3VEt662woRpV5qhTIQgH9A8"
+    },
+    {
+      "n": 15,
+      "file": "match-15.webp",
+      "seed": 2031725963,
+      "left": {
+        "name": "solitaire.exe",
+        "difficulty": "normal",
+        "plan": "turtle",
+        "age": 4,
+        "kills": 316
+      },
+      "right": {
+        "name": "nigerian prince",
+        "difficulty": "hard",
+        "plan": "waves",
+        "age": 2,
+        "kills": 208
+      },
+      "minutes": 19.05,
+      "winner": {
+        "side": "left",
+        "name": "solitaire.exe"
+      },
+      "film": {
+        "bytes": 1411360,
+        "seconds": 25,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AaYHHVM9bFtlFD3n3u_zv9-z35NjPztu49jxS5w4dorTqKndOIUQqU0gP01YIqRADEqbpjRFLYGNpQKEkCgbCxISYqFDJwYkRsTCgIREd2Z2NmJvV1f3_OjoHv5z_uzZefDTF0dHf74g8cOXv_6CyNng8Oj-IP3owcnxh4fHZ4P5wUcD9_T4_cHZ8eHpxAdnx6fvDv42iCEPQtcwZQ_Ykjl-Tn2H9Gom4C6WtIgHOiPAMh0_lYvIH2IrTok_02wrNCI1xDiBc_mPbpo5gTw2QDSf1G9pQ77Gj7XrWT7WA07lrnDFAapSx4xtScNvj5gT_JqmipDgpMYkpyUkeYZNgczhTQs-VLBrgLr3HqFTelWA3yiQBhooWLDru_G2AR4R-pyZPckp9AANaRAsMQOfY4wiy79oxrMZD2jIjp7l2_yesuzDBmwJsKPznE1U6KDFKQAuwWmmcy9pIPsKa6UhTST0CvMAujzRuLfM-3S4ZoCvaMcEUtYbPjQrwL8E0CRY1zyfGAB4KC23LJA2vqHtc81ECU7RZVoqqHtJ3dF7egfApISAAEl7myUfjBrIW6Pbm5rmnlbwHZ2KjeBVHZcp1KQCJXgJUa7wx6HhBKFbqMBXsOxBXreLgNR0kk-wS7B2wfqU8adUm4nyJWUbnxjPQvNY0ay0ZA9N2UYNd5DL9wkLphnoho4x6nms8yQGk_Vhx1hmUX1pSkKrOi3rAHZRxe4oftBlMgeWtMjPaBd0uKqzzoDGdAntCuRTCnDLXtU3AMxjhNM0iwy05w1jMMz7TW7YDsEFU9bUBUi4pZQEb2qN7jBc-X0YOLBvhxpprnNV72l3ZMJhz3nbFjlmdgU6Jx0NSCly018FMO1NCzBuwSRcFiH5mnYEEmeBKSzpxJAV20aYsmCToV4WSExXh8xS1pi0cGivMQkgxQ5dNg0kpRvIqsOsJHO3UAfg2BLKTLPnJwQIodpnWzdNytY8gHQZyEIeCm4pOCOQJKsykXMwjQpCS0xKnXfVIRgVZV0Dxs2-WbFtAHEtMSkhQwk5o1UAmzJne8Pi8q4usWev6TiHPVvUF7QpLmRmENOAcwj0uuyIa_uMXJRrHTVdH02eptjSBjsMTYEuXuGM5Oig4EOrrGua3uipSlzROm8DEtUUHclrnx0dYzlWYJt9FjSKZfYYMZdVUGUak0iwpDVelrjO09GYzJJoasCkFLXARRYBnWWfNxj40NJQh6uaYqgGl5jXkNVEhiGvs8P_AQ"
+    },
+    {
+      "n": 16,
+      "file": "match-16.webp",
+      "seed": 95284595,
+      "left": {
+        "name": "the admin",
+        "difficulty": "hard",
+        "plan": "waves",
+        "age": 2,
+        "kills": 138
+      },
+      "right": {
+        "name": "autoexec.bat",
+        "difficulty": "hard",
+        "plan": "rush",
+        "age": 3,
+        "kills": 183
+      },
+      "minutes": 13.21,
+      "winner": {
+        "side": "right",
+        "name": "autoexec.bat"
+      },
+      "film": {
+        "bytes": 1389386,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AeMEHc1NU1sFGIbh-3nfc4CQk2BOYj44AUpCCSEQSgoMWAMJ2iEI2PoxVuuMGpq0qIOdsXFGRzduXHeGjeNO9_4g925cuHTv6PUHLv353c1N-PvfL0ajv743Wr-UfmLq6_FwdD1OTa7Gt4aj68-_iobfTJ6Pvx0_aV8OJ_8YRcAQPq83lA2KntU2TzjnMfOFQp4wiFN-Zmkd2w9FaLAs9FJzPS0GNXW8b6FWVVGRU8_wPliXZnhXWxqq6tUgo6wabPpajKW9TIOMN8kpyie-rWnrqkJHfb2tYXigO2oGaQ34UZzblO_ys6zrhAFQL0CkTVvQUWzC08G8GsoQeeKl_Jyv2oY3KXiOOqZzqhrYrDqa5dLaHOcmQuVgR3luW8k7StNXwhlwYPukwnUqccuv8qih3_RKK7yrgRJVi9iWV6nqyGNbYUYbqitvt9Rkw5fNNcC8rH2lWdc2Wb_PJUmMTWvHOyzomc9YhYZ1U0We8ohr6uEaS9piV2Wrsqh9Ldmhagp46G02vcW6FqzEpnoqxwTyFXceqWymGqG_5qIt583wSu_Ycz0OPmbI_7zm5XDBpr2VL6quRC8lBR-QeCU1xzFTuu9hjE35F3wp2WoBfrXgBad2Qi7X0zR93bNA3TyaAUrs6A-FG8FHfltrlpLF_z1R8YLQJ4afkBRQhs_U1o2Co_Chwax_6K_SJ-erllWkdxXpjkTFIkU0tIx0QY9DTF324jrP-JRPGDLiKYt-QNoG1HQPbI_XyWmdPl1qCqzDhed5z9IsaUQU47u0wXZZ8TI9eiSa5ZA9OvR4wAlnPGDABW9xyr8"
+    },
+    {
+      "n": 17,
+      "file": "match-17.webp",
+      "seed": 168579376,
+      "left": {
+        "name": "solitaire.exe",
+        "difficulty": "troll",
+        "plan": "rush",
+        "age": 3,
+        "kills": 245
+      },
+      "right": {
+        "name": "ms-dos prompt",
+        "difficulty": "troll",
+        "plan": "greed",
+        "age": 4,
+        "kills": 373
+      },
+      "minutes": 20.99,
+      "winner": {
+        "side": "right",
+        "name": "ms-dos prompt"
+      },
+      "film": {
+        "bytes": 1445562,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AfwHHZPfb1R1EMU_Z-Z-u3vvbll67_4gsN3uUkvLdlvasrvQdluKRUCREORnxIAQisGIICDRqC_GJ199UB-Njxrjq4kvJmriX6DPxj_E3H2ZZDIzOTPnzNF_H3_1VVK-vPLZZ__-LuOv3_7-lomne3fvP9qbfPb4vYfP7z58ure899He5KNnS_cfP2s_efr40ZPnPwbAED7NJyFinzbtRTTg3cxtpjLPrq_JOGAve8acEko6nAL8qoAuR65le9WWHF-0RU7zOh_bKKCLcuCQAk2q9K0ofMYbWaqXgBN8GtBOVLWLKTZ0NO8zWjBskVmhOWCXe6wF_JJBlxbTNOjYERE6Ojfu7OWZdzRrx7JPhdBMdMVxwjBaZ55y2rYB63nF14F2KFHWlmEn7R-NB77T_rl8QoOQd7WAcly11zjKNVN2lcs2NdVXpov7Em2nc34rGjKtkneZoU-HZjBaoB27Z_NmQgtKPbZjmmKVGomXtMaCHfEBMMjq9n5ll5qdYk79iNBUxIra2keSxtrUoWjaryHfIb-sRU-bxZgeVZsIS15i234QOcz71gQRjkg2bRuWZX_IjtrXsiuVspeQsrSiIvWohnTBN7ynhvo6EPU4KjRJndsBv8k51vhTcVQ87yimQzG77oQJ-0Wec7RqU9pn3yv9XCKgWDlhS_sLvqui3Zj6VxFco8FynDCgl6tJI7S4bQMrZD3hB6yg01ywIDTrZWJ1wyl9oShJ-1Sp5wVfzclijS1qY5xdu2c79iD_TeEnOMOIM0xTGiuX5ILpS0V3LMtWbJvrFCpDj63ssR2m6B2GEkUtskiSjpgQPsFJ6trPdbOAvpEORm8GPLZbtuZI1uOSXRRKbZPLwidtRMKIQrbLKQ6PNykAPt7wPGW2mafPi_R4dC3geGQTec17djZn2e7YTbtjm7xmOzYgGu8ej-Mq5znFBY7ToEEJsrf5WVGovO4PfDVqpPWQYZ5R5by_Feoa-QEtWex961pfhMRWVLLTHLUZ5q3KPHV63KPJjrWsNuUUs1ruCq9pqKtxl3eiD22bGFDAz6aJRb7gRzStGW1E71I16BDi_JB1GowUrKKfcqtXoiGTmuIDO8MduqxYnZesMlYhyT_C2_Qs0ZAta1O3FhtW4ypdO87JscWScVy1Dh0b0bR13rBXuMmQs7SsRtsOs1JxO6iWqriGNDXLGssBFXmZCbVV9QJneYXjhFCwBVp2KBTGGEErtqWIgR1SgYFFarJoM6rT89SGnrBhs15g2SfsRgTm8wzd7RgH1bSqBtpSlUF0jldtxIg-fVILatK2SaW0bSjjpHUJWrWGtrhvG-zYFpsWQsqQxLrUrMuIWYZ02GBAOcRWY8E6uP8P"
+    },
+    {
+      "n": 18,
+      "file": "match-18.webp",
+      "seed": 859915679,
+      "left": {
+        "name": "nigerian prince",
+        "difficulty": "troll",
+        "plan": "rush",
+        "age": 4,
+        "kills": 273
+      },
+      "right": {
+        "name": "the admin",
+        "difficulty": "hard",
+        "plan": "turtle",
+        "age": 2,
+        "kills": 239
+      },
+      "minutes": 16.76,
+      "winner": {
+        "side": "left",
+        "name": "nigerian prince"
+      },
+      "film": {
+        "bytes": 1514090,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AekGHZTbblR1GEfX7_v-_5m9Z6anvds5tNPTtPQwpZ12ph0CLRaoRWrbCBSNiYlCpEijFELkwgSuvNALjTEkxpgY3sNbr3wN4yP4AAbfYGWtZOmfb16_7l3ff_Pq4U-_S7T-_uVPCs9PHzx8cjp0fvbF6fOzB-czz56fnX9-mn79-HTmwcMnZ-d_BMBIm6wr8JcNlvS94ihdg5bP2rwGcifVvwp9TuzIRoY6bJH5BDDNLAfUrKMhxnhkU-CLrMpZi2hD2zagD30wTGapmtbzRo6XbEJVotq0lPCUjJQekMQ-UNC4zWnEZj2xri4z65es6StAVcO0Leo9NUNZn4VedI5sxLs269ckRrMlOTMqUc9RahB8kbLKTHGfpxC_dLe-FbxqaIegRfWHU0radueum72jA63xabIT3yjcybBbjJGPkG9YV9O27MuUaapIR_e9amNkCizynYA2VRrxnmENjdqUzyvQ12Mr-5EOdCe40M8KWfZxrIaQF-n4rC34U0t8XQXm1CRXm5ou2rhfwHSBeQ1RI_MlVVnkEb-KEMdJvc4lS73n6zapY-0qkng7y3WsWl4Kx8KXQsU-iVWu-aqt-bZtMSG0QsO3yXTPNjTAsA9oiI4SPpLRAq8T1CVNRllixU84HG7FIgvZmhX9MK9aT8_UCqtqQGx41aZsXpOW6K6tsU-mhr-vIj2btutcZYNpNngJXCzjCNU8Z5QxdfSbmM6aORGF8Nh_kB-poWAlKwm98lq4j8eyVlVkwn-UI9ltrvioDWvBC9xUYNl2zbyutg9S04DXqWnBA9NaZVBrRJVyPGFHdabUBt-nrL42tadDnehEfUz4gY2oYZX4rXTbSwQdW-K7CmGXNA5pD_OOZOWsqTlWGfJu_hZn2fZihQ3VqfgYQT1Sr_5vsMstudW8pgqpb6rCkrdwTdghpquxYOt6ifya-tqmoG0Vw6WY2ZgfmGtQZeqqe5FJa-cJHzAY1yTmNGkdz1hRSpuyj2VBE9zihgIl7yK9G2V9TVH0caW2KLctDv2mxn1eyTDJilra1K4mQk-DKL7jbmX1JNoU8reNCraoTbp0ozh0NMOyFbyFaZOiRuwGUxTjFVVY8AbmV6mqLrdpX9Ic8CK-8Mva0a5uqJjsqad9VXLc7e0PkIdUX_msbakrfFnjyP8D"
+    },
+    {
+      "n": 19,
+      "file": "match-19.webp",
+      "seed": 1534989264,
+      "left": {
+        "name": "bonzi buddy",
+        "difficulty": "normal",
+        "plan": "turtle",
+        "age": 2,
+        "kills": 198
+      },
+      "right": {
+        "name": "clippy",
+        "difficulty": "hard",
+        "plan": "greed",
+        "age": 4,
+        "kills": 264
+      },
+      "minutes": 17.46,
+      "winner": {
+        "side": "right",
+        "name": "clippy"
+      },
+      "film": {
+        "bytes": 1400956,
+        "seconds": 25,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AZMGJZPNbxtVFMXPOfdNUmdsJ5lpyCepY4-deOyxnSCCqNQUQgVtmqQxVQi0KNCQLiKRUkWlIpFAgm6zorDiYwELhOAPYF-xQUICsaoqsarg30BvWL3Fu--88zv3Xj49fvjw5ifxH_v7f31PYeTn9RADR7dv7R_eDvc-uHNyUNn7cH__eOC99w_u3j1-4HAGhJ1gNRjjnH4lvqUuGfguPnbl4SW-o00AJ8GWLbPHU1pYvqc_ic8ZgJN61eRa6EQBwXMCBq2OxfipBLwReOVHdAtKMUYY-IQCNoZXuMqv6ACgGJT4ks1HizYcD3GNNzlhU4Kg31ROCB4COHJnc623C6G6ytDGHcIizaNP2GeM4IASwWZcHi2ph01l6AOaDOb5lrUJjromD6zOfzlypOv4jprJJc8jdfcjqEiwywiZOjhjsDqq8S8cTjjiPqUuBiVvVuSbMptDiY28_gHdpIHjmuEegDq-oTIBMwFs15oRrMsqt4cKBC_Gl4nglC7FKeXd1XDBvIeyiv7kl3QdrBYWCBsD1Fcfqf_UG-UjEkQQuF5EVtDDukYNBouVxRV0tI0f8xIr5oWPfb7pqAD9TsIqgg4JrmDPiuwASJRoNgA3GTpgLXoFQFWZwabipjJse2RXlwplglWbUKZdX4MdgqZ_GMBecMAEn9EVXUbZYLOoIdM0wR_yBsuHD25Eu_qCSDAWI_CupxXmF1MuoVC3QVX1Gl7HjTyJYj4tV-UdtOWTqroOtrSFS4iGZ5WhJWAOHfWCJU66Mhscp4ugQT6LNq6phymDLdsiXxQQxDtaMPAnugw1tbChgTzV1NXytBwy1OU_XPdsrkI_qWt4Po_4mhpIBd2IgD6uaNkQgNdzgL_poKu-Xdhw0P9yRDknmNUmWm7XT0Q8pPtYy-XCnPECj5ynCEfHtRMBCTZ0tjDlMjUohEzg390Kiiy4uhJAg7bEGbQQ2jQ6iu05TrPB8wwclKKJl_OlaOFrKkUX0EohRF_tCLiHVAm6SDQPvyxFTx9U1EWmmmr4SE3fPp7TArpK0QbUxFwOMaT_AA"
+    },
+    {
+      "n": 20,
+      "file": "match-20.webp",
+      "seed": 999346651,
+      "left": {
+        "name": "autoexec.bat",
+        "difficulty": "normal",
+        "plan": "waves",
+        "age": 1,
+        "kills": 93
+      },
+      "right": {
+        "name": "dr. sbaitso",
+        "difficulty": "hard",
+        "plan": "greed",
+        "age": 3,
+        "kills": 171
+      },
+      "minutes": 10.9,
+      "winner": {
+        "side": "right",
+        "name": "dr. sbaitso"
+      },
+      "film": {
+        "bytes": 1369838,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AYMEJZFLT1NhEIafme-c0lpo01MuBiFKb5TT01KNWgPGxEsMAhapQZBotNhCXHAJYMAdLkyMKxNi3JAYtrJx4864cceOxJ1b9_4F_Q6LWczknWfemZE_r_f3xz-c_G61Pi4rJ9_-XiWy2W62VtudzVfb6-3d9ovKUnM73tqsXNhaar7c3lr_qvQCimC-i3tWag7sasCDtMNb0Y1kQ1IUunMyYx45b8TrcDFzMqyAHItB7rCjEOihuEgu0Z8-FkHyTpY1g0E-CWiO--oTT455n62sbs7JZQfiMi4z5ppWQIv4OkIt3XIxCzJgehyYJy_ItKIFBg1yZFklyt4XS0HeiwOrChE7yizHOqI7qYYo8fQ7Ubhku4EVB-1y4_JMUWN8CkTNobU54EXNDwuBItO6yM9TcGdYKvWOaoCvtXSv2FUOhKpeNPZWY6FgT7iSTOmReIR5pxuX65qUPjlDmSHJGOSGc9sgv6wdKCo8IdBK99P0TRcX6Qkbh5jUvMnLnoDjCrJCTsvhpBEg8OwFDlRHyDiwqLOsMRiLUWfg1K_BxUQ1w5AUTUJ9fNBJ0LkwZjUgq-NitYlwl5oHC6B38TVDnTroPXCep4h1aYMNnaeqOSIuZkLzEqGhWYY18f-lfQxrlaoW6Q-JUR31YFRnKatauilTYIpb5HlIicdMY5LnyTLBFCUN-Ac"
+    },
+    {
+      "n": 21,
+      "file": "match-21.webp",
+      "seed": 978192060,
+      "left": {
+        "name": "solitaire.exe",
+        "difficulty": "hard",
+        "plan": "greed",
+        "age": 2,
+        "kills": 176
+      },
+      "right": {
+        "name": "nigerian prince",
+        "difficulty": "hard",
+        "plan": "balanced",
+        "age": 4,
+        "kills": 254
+      },
+      "minutes": 16.79,
+      "winner": {
+        "side": "right",
+        "name": "nigerian prince"
+      },
+      "film": {
+        "bytes": 1376300,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=Ae0FLZJNb1tlEIWfM_NeJ25i3-SaJHZKEEn8kX4kqR2nat3adZNSYkoDiFSUdhURAxYlpGkkChJiBwtg1Q1CYQX0HyCkCnasEOIvIARsWPAb0LXYjmaec-bM6K8PHj1qbWd-3Nv74WsZD49bf5I57O_uvdvPPXjv3uBod3DYX-k_7Mf7g7f6h4Pd_WcPDgf7b_R_d8AQPoheCUV29LcMe1Wo7CXvJV9Jlq9Tk3iiuOeyLxTybLEVBVo6bRXv6tB_lVAw2Al5niOXZCNUKXybwvqOvpOjnwQshCXuRmgvlXH0qRzPgv1jECAWQu0kExUL-ChlSvbEPLVYzy-oaUvMCz2Ie6FEk0Umoqc55Rfshm0I_0bCT46W1UvuBKhNfmZRTTcmSup4XW4nueWznBX6TXYdZT8ON4E5K0YxNS8wW0AlzSQTek34eli2Hap8ZOdp80KEPnS8Eoq2RSW1ATSFGn7fsCrHilL79wq5AIvJXcfxbeAct-M5w57SqpWE_lCAl5llPEI5NnXRsIY91nDTfDYZPRs11NHboch1lgsZziSYO17gtp0S-j6NHF8IFRqcmTzB67YCvBS1tOdlZQPm2lLO5j3isqrAO45WDdYZ52cV6gkBg6sRUZfYjixPmQZpjhn7JOXfD8_b5wLL4cJRPNwoYZ1fFI6sS4fZuBVuJUW7wlgUgKzaxCrqvFVDmxGhEXasTlxIR7N2Wgdp1SdD3WpssMVBCFEKv2QLTCP1rCt0FE4MJZ1VYtp2LsFsWOlQ5Esbeh9jExsO55wIzfBYoWVlltgcfpLZkOLOoPBiqNos17jD-9YOdSaGtFGitDOa4kqCTVuPLsfpeRp2mTyXhjGPp63Rmg2oWC1ss2ZjBP2vqzTWKjH_yhpM2yIlq1KxyiTZMHzXvM37CHOJa8o69MMmb1o-uxaJMS2FZ3yKadsgBa0ZXHB0zcosW5O2owwz1uQm09ZlKZW0El0WszFlctZgnYVknIt0WKFLk3Wa_Ac"
+    },
+    {
+      "n": 22,
+      "file": "match-22.webp",
+      "seed": 624993609,
+      "left": {
+        "name": "the admin",
+        "difficulty": "troll",
+        "plan": "turtle",
+        "age": 4,
+        "kills": 281
+      },
+      "right": {
+        "name": "bonzi buddy",
+        "difficulty": "hard",
+        "plan": "balanced",
+        "age": 3,
+        "kills": 229
+      },
+      "minutes": 19.87,
+      "winner": {
+        "side": "left",
+        "name": "the admin"
+      },
+      "film": {
+        "bytes": 1353036,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AfMGJZLNT2NlFMaf55z3vdy21wL3tr0QGPpNoVNKGZQUGKBVUCh0hsAwH2YGA2kjk8ygohODZpYaF5NonI1xaTIbN-pyjIkLExP_BdeT-Ee4MbeexVmcc3I-fs_hq8vnz8utFztPez_8SuKnf5NzcC76J73H_dgnZ_3cSe_xw_PE6Qfnnz3MnT7p9S5fGrggdBkNuy3_EC2C78mxeSDTCn0bbRQs9IjXBdgJQHDCpz5j8i_KxPBr-INmC5AMfFtUFyFmWeE6-_qNGEhfcpJRMMSIzdHz9zjBc4XuI7JSMEawoA0DAX6jhd4SCOQVCdaTTjQNCQ35Jc0CqqhZMA_gWKFt3xPIrJxERfyaBhILNlFFiOggsAY7Oo6_af_vuTDyOcEL4yl4XeqEFpHBp_BkNFZEyge-EJuMe6wGSXUkxRJf0nRkWKElCLcxCw-rNiuAw3V-T90wkC6hDVb0KSBZLCHlq_2FgEwP9lrRdACawYEvqBFbAHJPwXk-Y7KKDBzrIFDBAe8YyD7BEmf0VCBHCp4AmPHThD4AkJUmFix4GLgGgPmOkU5MyThDjnNM86xolIEU9EcOMMeikZgjWNEx3tMuJwcV1UG8bw-4xXf8OO-PjNgOSwJ5FDxy_4yI_i4ChKNpueCibg-6xQf-Q17oE54kl9WRmrgcw7rU4Gho91g0hmVOSM73ZFoDUWaChrj6OvKII4M0IvIhPJtADsO0aNKVqsRYkWG-r9Omzkm5KqemZX2J8TaH5F3NS8BdTsqM0syKYQngIhpqUaZBEZ5fwGIwjRyySNgm4lykkQZvCXWDX1E_giE0z7smh59plykm0C7T0tI7Emk1T1euSlK_pb9jnKBoC6YK1bKQJTpyyDhaKjIHy0mM8Qry2MbHJgBtE1Y77PFMos-bA3mmx_BG4LaRsbl4DAUIyzoko7zhuzzmKeMyrHVecp15WaVj1mRUQ7nCLGoidgtDXBGPaSmqxRQVbe5RsIGGqYraJgpMQdmFqys4QIprWmUoaV3itkArbEtCZ3ikd3nI27zPmzzgvnEI7TKhRlZZlCmts6QeJrgmovPcRFL3qLKgi3TkTe1GkLnAEhLc4BoVK9wk0WSLS2yzyxbf4g3uco0NHTIrzOCa3eAUsloXyzdYh8trbDALX3fZItFhTaAhOxjSkDsSaJqbepP_AQ"
+    },
+    {
+      "n": 23,
+      "file": "match-23.webp",
+      "seed": 1143708049,
+      "left": {
+        "name": "autoexec.bat",
+        "difficulty": "normal",
+        "plan": "rush",
+        "age": 3,
+        "kills": 186
+      },
+      "right": {
+        "name": "ms-dos prompt",
+        "difficulty": "normal",
+        "plan": "waves",
+        "age": 2,
+        "kills": 149
+      },
+      "minutes": 12.94,
+      "winner": {
+        "side": "left",
+        "name": "autoexec.bat"
+      },
+      "film": {
+        "bytes": 1365096,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AekEHZFNU1sFGEbP8773hsQEDLmB21KgyU3IN6HFqgOKabUUihRIgWlK2wUVFl0wUIoz4tc447h2HDY6btz7I1z6R_wfdtIf8Jw5cx79d3l1db_9x29HR39fitf_ZF6ROj8-PDo5zh1-fXF6_M3xV92XhxejJ2_mj07flM7OT0_OLv43wIgR3uIsHGNWB9oLepq12xHemLBCFUipRpWGr9kTynyiPxUT3hi74-hH1ZQxbFN1b0xUgL8UtNggH-IR0LAZ5W2HuQKUI5ThhWWFSoz5fUcp_lVQ5YMQv2Zt8ppgm1GhL21B6CZ5nzToeY6KXgBzKtHx3xWshEWrFKChNEkU2ozQU1YcxWAV-9SLrAoVaVuHohcZAAmx8LoK7A1hvAqfq6W2JvNXcrRssd8tLEcI3Q0uDVZp8AOQHZ-2W_wi4GcZjIT1eJqufaQmTZ_mmYabXxXU7YEvWEIZeE8VRqJuOMO4PrZx76tikNWqj5AUACps0bQDloRngXtyq9P2dTPt-i3FQew5K2ke9xJpzbKsqg8tHltHicGoLzEWDYvmfFV9oKUa7luk9NBGfEGTdNMJ1zTnU7akG_Rt0jf1k_RInQB_aG0lhL4ukfhiekrvs_LuKli3DeHfC3-kfT3Rlm_oO4_yiyryhacpU9Ouu-3LbJsy4_4ZeX1ui1qL8I4uvKpMUHWnJmd7GI5zS6nvTlMp1plXR2WrWVptxbTIaF7XmSOrb3WgKT5UjbY3tGYTXo3QqN3TQNMW-aZ21KOnB-Q80VM90776KmtXG9pTUwNtaU0D1SO8GtwRvi28yHUNtKM0PXX1WImHvAU"
+    },
+    {
+      "n": 24,
+      "file": "match-24.webp",
+      "seed": 1639065475,
+      "left": {
+        "name": "dr. sbaitso",
+        "difficulty": "normal",
+        "plan": "waves",
+        "age": 1,
+        "kills": 86
+      },
+      "right": {
+        "name": "clippy",
+        "difficulty": "hard",
+        "plan": "rush",
+        "age": 3,
+        "kills": 160
+      },
+      "minutes": 10.8,
+      "winner": {
+        "side": "right",
+        "name": "clippy"
+      },
+      "film": {
+        "bytes": 1415126,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AegDHdHJTlMBGEfx8_--e2laW4bb0gCVoZbb1pYZEhIQ1EQSZJAyiOhGkSKSaCRgUDaaaOKGJSsXLNSNa9c-jomvYfAFzuJ39Ofs4mL3V-Vzs3m5b3wrT7-n5Xh_t_l6_1rzeGTg5Pnu4duTNy17rw6Pjs5-GHmEF5QGK2neURTsUOcje1nCduvxyahTrbZJtzK5tA4M0r6ocaFYnXoZ1Ik9sC1fDlPAui9p3KBqXcoQK0WgtAq6oZ8KOrM5qo7HEZbyivqJfFbvwIqMUApDbilvMKWCUEmxvirYdrxgGa-oqhfIB67qCq1OzmMNMKGYnmzap6gZ1CMohG36q2DLBm27ow-oa0a9lLhpgd8jUI0F72BOCao2ITShLwoW2_LZM5_NE11Xl3rAYBSs338rLOu2JnUnSOuRz1Ai4fNUFfuKFf3AJnRuydWIIKUiS1zKGnz3oE_trMltyJ0KofdarNOwoYjB4D6DmrZSBJAQ-mCPabDKEg3W-SQ2mVcv2BrYspIsUmOEpBdp0J9sZUwD7EQQaQ5sgz7P2BAPrV05Nhm1ac_zhEVvA3umLA2wlf-TRxlmg5JS0DFM1ZapkVI5qnBXCbBTIs_burdwLrBRVahbmVUbYcGeUmOHB4yxxAZbdIdpuzIPNWgVg38"
+    },
+    {
+      "n": 25,
+      "file": "match-25.webp",
+      "seed": 7223273,
+      "left": {
+        "name": "autoexec.bat",
+        "difficulty": "hard",
+        "plan": "rush",
+        "age": 3,
+        "kills": 153
+      },
+      "right": {
+        "name": "ms-dos prompt",
+        "difficulty": "hard",
+        "plan": "greed",
+        "age": 1,
+        "kills": 88
+      },
+      "minutes": 10.18,
+      "winner": {
+        "side": "left",
+        "name": "autoexec.bat"
+      },
+      "film": {
+        "bytes": 1349754,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AeADBcHJTpNhGIbh536__yslHUT-2trBVAsFpDK1AhVoGYy1igzBAFJIDNouKwQwwa1u3LMgcetBeDBu3XgMbrwu_ny5udGnxb_d7q_3aPnfckeRi95pt9-Ln36-Outd9z5Ofzi9SvQvp7pnlw_PL87651e3JslEwQ3oBz4IMnzHptXRiQInlw0H9Q3rW5Wqz9EOjpzcpI2qqddaVVsZL_ZMNq4NRNEeuBEC5YZldfdY0iN-Epb8feqBtOvyJCQrK-CEhEkz-o1fdOVkwyqIaRtTjLqObQK5rNaHJSmvvE9rkkBxK3HhYmEiGOOVhVzrK36UnaEpV7MME4rR4Z7NuqzWlNCcJtXybbyVTcwRU037FnVb3AkLukVxJZXyddaCu_Qs4doq2Dh3NKElRtVmzw9YhSMFbpNKNIXTEw7YJ6085RClWVSEF-xSsBaHJtaoUmVenhZNZlSn46OW4pBntk1GeVaYok5M66GIqkKDMs9p8JJj3nLAFg222WSap0GcXdreFKfNhguUYSeoRYthYElF3AhTirga8z5iLd7JuwJdnDJulTfklKJGhTXGlWCFGnNKs-BWmFWRrBscWiBvTTJhmpxK1BhTkZjbJm2rbkEx9lmiYgM0qLsk68qzSZOShvkP"
+    },
+    {
+      "n": 26,
+      "file": "match-26.webp",
+      "seed": 288060467,
+      "left": {
+        "name": "dr. sbaitso",
+        "difficulty": "hard",
+        "plan": "turtle",
+        "age": 2,
+        "kills": 188
+      },
+      "right": {
+        "name": "clippy",
+        "difficulty": "troll",
+        "plan": "rush",
+        "age": 3,
+        "kills": 212
+      },
+      "minutes": 14.56,
+      "winner": {
+        "side": "right",
+        "name": "clippy"
+      },
+      "film": {
+        "bytes": 1317836,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AcgFFc7PUlsFGMbh3_t95yQ5BAg5p-QACeQfhEACTQgwlFIDtaK0aG1pHXWhgHQUx44V2NSZ7lw4YxfOdOtevQtnHNfuvACne1fuHZ8rePT6-atXxc7V4OzFH9_L-Oevf-fIXDw5OXv6JH92sVq7PD05v7r8OvPZV-fPnj3_zckhfFZLyvCnERZeKmgp8o6y1vSlGMb1t8ItzRos-IYe-kDbQgqgrpIq1vA5mgm-7AVW1LWuQmCeXxXmtRhcV9XzPmMZdVQgVFWT3owxbNNLylGnpCpSVQ0i7XqTBfWY8O8UhsGxpV5T6gUbT9qa9CKmlEnV5GR9SnUWleWpbQoPmFafsbCtnxQT5MNxS7ThTS2Y6YhtA_wBo16ioyzvK2vzKtlxcVbdBFW1roNgzFukGvqX_q3_KK3EOdUmdhWzFX1jj3TOu-GkdpSxFb0VBKp4jk8Z9aHXLecNrxKprwkrazT5SKe6CiIFMeT8hof2mGVPSH0zjCxVhc8paEtDtcNsMK-hMrbookVZd01eMfM7Cqkrw4z-b9VAb6ibvNBSmAta2rG1OPKuve0Zg22vkqhOXl2P7DGHXlHAonK0aVIJ93UREH6hnD3yso35kuYt1BZxhOrJutcs0c_SapwV7jQpM611jVBSEKTcZM8u7aWKd7xrbe9T9RGauqn7mpQFRZWYIlaWXxTK8knBUhbNvU-qBcq6rZk4VqpRTakUFHVA3m_5gV-zNUZ8nN8VLgepfpDFinjTnVU9tCml3KZhoe4zRNrjQ47Jxx9wQluxDWXctWka3mHGpqiryQoDOZucSvQZUlfMPj3QEfcwbfCAkuZ4h6IvxBmPbZq6mx15ho-twS12adku93iPQw7Jh13WwDq6xrTN09U-Bd8B26Dhs7RsyIRm6LEWQ1436FFWynUGithjW5ENqOkTsJoqbNCj5BXW6eNapUdNBQb8Bw"
+    },
+    {
+      "n": 27,
+      "file": "match-27.webp",
+      "seed": 1455301992,
+      "left": {
+        "name": "bonzi buddy",
+        "difficulty": "normal",
+        "plan": "turtle",
+        "age": 3,
+        "kills": 282
+      },
+      "right": {
+        "name": "the admin",
+        "difficulty": "normal",
+        "plan": "rush",
+        "age": 4,
+        "kills": 329
+      },
+      "minutes": 21.41,
+      "winner": {
+        "side": "right",
+        "name": "the admin"
+      },
+      "film": {
+        "bytes": 1411616,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AdsHHVPLbxN3GJyZ77dxnPi5xthOnIfttb27XjvLo9BECEqTQICYhEeSIg4VKEigCtpCAUFF1VbtqZdKHCpVXHrpn9Fee-mhxx56a_-Pyjl_841mNDP899Xbt_u_dR8eHv79B4Vf3nzyD6aePrh3-PjB7P1Pn7x-tHz_-eHhq-wXDx8s3zt8_OjJOw_TICzlZbzQGQ_8kfiG-pOIi5Hrc90ClnQHFfbtEQN_wJ9orpBikde9NS1zxFsuY-B1AIu2y9ACzXCTsYDtCuwFwRZnHLDh1bXCPmCxGiwg9aF1O2DH5l0CEPyaBAfsMIORgB1vhaFuCsgbLOZZQCUuac22KwHBJQeU-N3kaXKqGOyx12EKCExgbPlQgRsCZg18Zgk3nccRwR4TQCF-UOn9cg1DeyngZiVl4F3jnLsw0aHItrngdwF51kaeuyyqhb4lHGKVN_jUa3PeQRN0DV2dti57GAtyBm4zAnDR-hXYxM0i9wnGHNgJBxyg6M35UIZjgicFnSc4hxbydkUnDWzjNI-hwK8MbLkpBuyDFuHjCU45diT7HHkbMNAKgFpl4MWs6xyXcIqLAooWEUw55TeZc-fZxB30lbVn1mJNDZ7FHGElNG2XYzZ1W0CfbXMCNgF8T31U-Z0zq-Vv6d9263zL7F8s7HhOQwBb9PSOhO1zzNscEnbeQcBCBXRoM6c-FizVLQM3HBAq9Ae454VsaO3ILRS4KmPLY5EZRByqYa9tfhIgBgJqLCFW3fLYPIotsdMO2NNYxwhuAEhRqMALWHMt-QTrGiBC1XJ-oBhAT3cJXjYwcWKkGCEuGZjHBwQLato2hwaGnHMAkCjQcZbQR6iG1-Oaq9iQGQ0wwoR_HpGqtolqJSFYdjXrsK4qqz4AtXBgHTodcGw9gkW3zFNKjvx0sO9tuBwDVhVj1gJ05LFNQ6DYEp5wda5YfjIjrmqJRQ0mjNZDmzFDji3jw3XpIVKs3YlWtCrwQs66NqUOh-qZh6soWk17AJ67UJ8pxR5G-JkuUqgtRNjGfyzf4K-0L-lKCbt4pn280Y4HTuG5MhYgw1ADu85d3p3UWMbA3YTZLVb1IWcQEDbZ7BbXAF3jLPpasxyGipAqhu-dUSJg2fJqc0CQWkeGXaXWRIUfKEXWUpYUomFrGGmELMEhG_K5ilB9TBt4AWU2VGYdF1nAjgLIrqoHjxt4qSHOZd_DDXQUIXQL3sWjyI_b8Ggie4g0zRZ7CDTFJiKFiC2wabXRVpFXMGsL6qCjGsvYYgHQhWxZi_SwQ8NIl6yEvtrMIVEHAWe0zhkMlWJHTQMLGOkM5xRghP8B"
+    },
+    {
+      "n": 28,
+      "file": "match-28.webp",
+      "seed": 1803789861,
+      "left": {
+        "name": "solitaire.exe",
+        "difficulty": "hard",
+        "plan": "balanced",
+        "age": 3,
+        "kills": 187
+      },
+      "right": {
+        "name": "nigerian prince",
+        "difficulty": "hard",
+        "plan": "balanced",
+        "age": 2,
+        "kills": 120
+      },
+      "minutes": 13.68,
+      "winner": {
+        "side": "left",
+        "name": "solitaire.exe"
+      },
+      "film": {
+        "bytes": 1324338,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=Ad8EHZFBT9N3HIc_z_f7-2lja7H9o7aFDii0KAjiihYslEZF0A4XHImSmCXE_mcaNzbRLNsOyxJismRHjssuO-wF7ORhyY57Czt4MMsu8zV4WPDyXJ7Tk4d_vz06enr4W73f_-UH0ItnE-904iDd63-Rnn7-5eeDF3uDg3Q-_SYd2h88SQ8Ge_vjXx0M9h-n_5gkE_JnMYQfTbIEsegzkn7CxZxJo8UkEeINQboXy_7A3aSOzZKjpPO6yDX-wmfC47hrsqY-cFFQU6uqIr9AyZYpFM8mr4hVQv4_kHtIbQ55otv63tpaiovsEMPXJl1yMe8VpiXVreslcsVSIpD0mlijFWS7fs8_4RCTFvQ7UXxKIRwHXc7UXDz0X63YOFPVaf1Boc71sGfRW7rMreSUjepvfIufybs3NcRJfedVNkNWU3HVNnzUApMaoaKWL9h1KsWX5ouMJBakQ7zPrKRb3udG_ry3OWlldTXpGetphIfxiCADUfGWxv2EyhrjLsNW0nRReq5uPJvcZCzItpBXLMcdUg-SrclpM5pZlzTmZRqS3hLnqAXZNhu-bNKEnzLnEY3iOhlJzmy4qlKSNfyOpBryP4mvOHPXskPTmlSGlpVZQVRZpx46XtZnKqmizWgmzVNns9j2Lo0gzSRT6sWX-EdczNxnnF22uM9NdujRQv4hY_msn6NiTYZtUpElZVlglR3OSWqST-QfkzNZzxvcZo1lWmzTY4cuN1ihTZdVOu9dhzVWyB0P1HvaMJfIe51yIu9wlStM-QbX_AK7XmabK9S9lj9et0RBWdWYsCw5NeT8Dw"
+    },
+    {
+      "n": 29,
+      "file": "match-29.webp",
+      "seed": 1426227251,
+      "left": {
+        "name": "bonzi buddy",
+        "difficulty": "troll",
+        "plan": "rush",
+        "age": 3,
+        "kills": 239
+      },
+      "right": {
+        "name": "autoexec.bat",
+        "difficulty": "troll",
+        "plan": "turtle",
+        "age": 4,
+        "kills": 365
+      },
+      "minutes": 20.1,
+      "winner": {
+        "side": "right",
+        "name": "autoexec.bat"
+      },
+      "film": {
+        "bytes": 1473244,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AeMHHZLLa5x1FIaf95zvl8wtmeT75pJMJvN9uTSZmVya2ySlkmtvaeqiLS0WL5WmSaELWwgtWKXgtihFKCJ0K4jgTnGlC_8B3bpV8A-R8SwOB94D73l4j_598ebNXfti_eXLX3-T8f23yd8MnJ0-OPnktHj89Mlnj7Pj5ycnL0oPnj97evrp6cPl4wfP3gbAyKfU9asNZzoKs3T0yGqONq3O14raXCRNcPzASvE6K7ZIU2jKUiygQTLaXqGgGTZt2Ns23lfV1ZeK9rkT8IgiNboW-XlzjbPKgOZs1M9RVkyNstaIlLDtM5ZLpplSiLtshVS9KOWeNR1fsh1bp6C-TUoaamzbVesKNS34jAJVRrRBkVHPNMB9O6DLaLiuBFjUah9Bio5iLPYte63QUYtFq0XTjnIcIk_1VnaWezz6ixxdG7nCWDmhLWOdSV-kmWwxFhfJQmquPD_I6va-8LaV1fS8VoA_FQ0UL1JWRSVb9ZhhnaPhU-wQU6AdCmwRtGxH_ofMEwL-bvxKtmiZzQoFa2iIgupW9DR6WC7xs4SMVDnKPsqwClQ9T6JZXgb8Iv_IMPhL5f8H207QhqbiRHNRX0B1r6it1EueyalSY5JJboc-ehaNMeSZf2O5urnwF5ZCQPiavWffyQqjTTIVkJq0qDKpEA34MHPJHGUvaICxGCaZ8CtUyGiGIQZ1oJMQbNnnLaeGtW3OfuyDfKV8RfjvGjnioR2R8340R973W7VdYjbsZlKIplhhlVz_DpXU71WWvWCtoPi0v62J6Ip9yALHdDk1rEO1nNFBvgbqf-lrhUVNRHWvqamOme_jnnkDrMdliqFDTsVkwSNreokxghK1KGpBI9aNIVJJt5RoWmm0GxZ9yhJ32gos8JGFcN6Cz1rep1WTuMQ1FgD3JruhZrsu6-BaoeRrimiR87YiW1HExwlqqa6uJqPPLY1L_ZzCjscWqcyE6vS4yjaQD-PcMfyGXfAlKzDgS-TURrpPhXtqcDNMRD565FW5HXjOzrSZFKxELp9QVZHb3rC6t3E14rICY3qlEMioMWZVL5JS0Lbmo-fhiWVh3sqe-SPt-KJ-Ev0qWBWpQcumKBdztOyS8tEdJXiSWJcbJC5r0_ZbPh6tugMHZn7b6vpAzprPADt2Rs1S7vIO20wbDKqny9E-rm1GNGx7XGePA65zyD6HlEyhxZKl7LHLIYf0WOWANfI2GHpUrOQb5H3XUoa0bNMM-la0jlTknpnWiVSxHg1NskndpHN03GyeWR-wHuM-aRe8xKZllCzvC3RsVJcIvmNNEpl1WLcMV48FKpqyHnOK6JHRo8cF1tmjx38"
+    },
+    {
+      "n": 30,
+      "file": "match-30.webp",
+      "seed": 1548770540,
+      "left": {
+        "name": "solitaire.exe",
+        "difficulty": "troll",
+        "plan": "balanced",
+        "age": 3,
+        "kills": 189
+      },
+      "right": {
+        "name": "nigerian prince",
+        "difficulty": "hard",
+        "plan": "rush",
+        "age": 2,
+        "kills": 113
+      },
+      "minutes": 13.17,
+      "winner": {
+        "side": "left",
+        "name": "solitaire.exe"
+      },
+      "film": {
+        "bytes": 1353516,
+        "seconds": 25.1,
+        "fps": 12,
+        "width": 800,
+        "height": 260
+      },
+      "link": "https://mrhakan.github.io/?app=ageoftroll&replay=AdQEHZFLT5QHGIXP877fxzAXBjpfmaEolxkwKIwgDCjIgEExBaYi9Za2EpU4o4wobZB4ifGyUBPjTrf-AFcmLt114Q_ooltdGVf9Ec3HWTyLk7w5J-_h28O3b9fX1v97XP_7EXr5aXhELTuNjfqdRtvdP283dzeaO43RxoNG-3bzZmOnubHd_9dOc_t644tJMiHvZiHoo6R2_w5r4aikBKWcrNN-juRT3GIWQSArUVHGc-rREFnN-Akb9IIK-kpYwwNZHxXMihphji3fyqZ9KiedIxsVuMgrPB0oWAtdqxb6CWpcMynjv_MOr3FAsivUsidDsRLAQfWTt2nvjkLrVEHmBTpzi0SStdCjo_pCuOSLgSw2BrhE1WscUSyodaR8xJJKUVSKf2h9TzQU9Cv4YVxFVa3sczwxqegf4AVeZT1bVtLblKFOMqjQYj2eUb9CBn3GpMOW40KUlOR8JvyI_0GdcpwvEONkAklBlHuOv7FwgYrF3TIx1cd1P8IbfCIS4hue5p7vZ5WBvcapPR7SpL-GfbR7W3aLp76Ps4HsrCesNzQ72jrArKSS3CsMmswZUzFy_aj4Kp_7F39GR094g3KQoEu7fkxSjTM-YLJh8rrvFZPmuObEiXaOglc56AeiQ2zyG5vUuUyFCSYYjYeXlN5jm__EPFuMscCvrPALk75Ma7ZXh0nYuFq92_KRSKpLk-qgw1Jetj6lGVKvRZSUpco8UyQUzz_mgRYp2FWvctxXuMM805xnhSVm4y95Kpgh76OULcUypxhWipPMUuE0pzjDMkus8j8"
+    }
+  ]
+}

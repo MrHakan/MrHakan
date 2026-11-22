@@ -1,0 +1,63 @@
+name: Age of Troll match rotation
+
+# Picks one of the 30 pre-rendered bot matches in assets/aot at random (never
+# the one that is up now) and publishes it to the `aot` branch as current.webp
+# and current.json, which README.md embeds. No simulation and no browser: it
+# copies two files, so it runs in seconds. Uses only the default GITHUB_TOKEN.
+#
+# The matches themselves are made once, locally, by
+# scripts/age-of-troll-readme.mjs --count 30.
+#
+# Not the `output` branch: the snake workflow force-publishes that one and
+# would wipe these files.
+on:
+  schedule:
+    - cron: "7,37 * * * *" # every 30 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aot-rotate
+  cancel-in-progress: true
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the matches
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: assets/aot
+
+      - name: Pick a match
+        run: |
+          set -euo pipefail
+          list=assets/aot/matches.json
+          # what is up now, if the branch exists yet
+          current=0
+          if git fetch --quiet --depth=1 origin aot 2>/dev/null; then
+            current=$(git show FETCH_HEAD:current.json 2>/dev/null | jq -r '.n // 0' || echo 0)
+          fi
+          n=$(jq -r --argjson cur "$current" '.matches[] | select(.n != $cur) | .n' "$list" | shuf -n 1)
+          file=$(jq -r --argjson n "$n" '.matches[] | select(.n == $n) | .file' "$list")
+          echo "was match $current, now match $n ($file)"
+          mkdir -p dist
+          cp "assets/aot/$file" dist/current.webp
+          jq --argjson n "$n" --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            '.matches[] | select(.n == $n) | . + {published: $at}' "$list" > dist/current.json
+          jq -r '"# age of troll: the match on the profile now\n\n" +
+            "Match \(.n) of 30: **\(.left.name)** (\(.left.difficulty), \(.left.plan)) vs **\(.right.name)** (\(.right.difficulty), \(.right.plan)), " +
+            "\(.minutes | floor) min, **\(.winner.name)** wins.\n\n[Watch the whole match on the site](\(.link))\n\n![the match](current.webp)\n\n" +
+            "Picked by `.github/workflows/aot-rotate.yml` on \(.published). This branch is rewritten every run.\n"' dist/current.json > dist/README.md
+
+      - name: Publish to aot branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: aot
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
