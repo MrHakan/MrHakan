@@ -14,6 +14,10 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=MrHakan&label=Profile%20views&color=0ea5e9&style=flat)
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/MrHakan/badge.svg)](https://hub.xerj.org/contributors/MrHakan)
 
+<br />
+
+<img src="assets/tanker.svg" width="100%" alt="Animated sketch of a chemical / product tanker riding the swell at dusk" />
+
 </div>
 
 ## Jump in
