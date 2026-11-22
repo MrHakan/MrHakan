@@ -39,9 +39,9 @@
 
 <div align="center">
 
-<a href="https://mrhakan.github.io/?app=ageoftroll"><img src="https://raw.githubusercontent.com/MrHakan/MrHakan/aot/current.webp" width="800" alt="A bot vs bot match of age of troll, played back fast: two bases, a lane full of trolls, a winner" /></a>
+<a href="https://mrhakan.github.io/?app=ageoftroll"><img src="https://raw.githubusercontent.com/MrHakan/MrHakan/aot/current.webp" width="800" alt="Bot vs bot matches of age of troll, played back fast one after another: two bases, a lane full of trolls, a winner, then the next match" /></a>
 
-<sub>A random bot match from <a href="https://mrhakan.github.io/?app=ageoftroll">age of troll</a>, my lane strategy game, 30 in rotation (<a href="assets/aot/matches.json">replay links</a>). Click to play it.</sub>
+<sub>Random bot matches from <a href="https://mrhakan.github.io/?app=ageoftroll">age of troll</a>, my lane strategy game, played back to back; a new set every 30 minutes (30 in rotation, <a href="assets/aot/matches.json">replay links</a>). Click to play it.</sub>
 
 </div>
 
